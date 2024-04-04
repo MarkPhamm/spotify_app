@@ -28,3 +28,5 @@ all_time_df, all_time_artist_df, all_time_album_df, all_time_song_df = all_time_
 uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
 artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
 artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)
+
+print(artist_songs_in_album_df.head())
