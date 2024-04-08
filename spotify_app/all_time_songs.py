@@ -5,17 +5,23 @@ from datetime import datetime
 from io import StringIO
 import requests
 import base64 
+import os
+from dotenv import load_dotenv
+# see also python-decouple
 
-now = datetime.now().date()
+load_dotenv()
 
-CLIENT_ID = "3bb988d3549f41908d0a7ab799d962e5"
-CLIENT_SECRET = "7a9146e9861249ebba524a14d9f3a614"
+# accessing and printing value
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 client_credentials_manager = SpotifyClientCredentials(
 client_id =CLIENT_ID, 
 client_secret =CLIENT_SECRET)
 
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
+
+now = datetime.now().date()
 
 def return_all_time_songs(sp):
     playlist_link = 'https://open.spotify.com/playlist/2YRe7HRKNRvXdJBp9nXFza'

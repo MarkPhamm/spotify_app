@@ -5,11 +5,17 @@ from datetime import datetime
 # from io import StringIO
 import requests
 import base64 
+import os
+from dotenv import load_dotenv
+# see also python-decouple
+
+load_dotenv()
+
+# accessing and printing value
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 now = datetime.now().date()
-
-CLIENT_ID = "3bb988d3549f41908d0a7ab799d962e5"
-CLIENT_SECRET = "7a9146e9861249ebba524a14d9f3a614"
 
 client_credentials_manager = SpotifyClientCredentials(
 client_id =CLIENT_ID, 

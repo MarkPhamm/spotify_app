@@ -4,10 +4,15 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 from datetime import datetime
+import os
+from dotenv import load_dotenv
+# see also python-decouple
 
-CLIENT_ID = "3bb988d3549f41908d0a7ab799d962e5"
-CLIENT_SECRET = "7a9146e9861249ebba524a14d9f3a614"
+load_dotenv()
 
+# accessing and printing value
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 client_credentials_manager = SpotifyClientCredentials(
 client_id =CLIENT_ID, 
 client_secret =CLIENT_SECRET)
@@ -20,8 +25,6 @@ ACCESS_TOKEN = artist_songs.get_access_token(CLIENT_ID=CLIENT_ID, CLIENT_SECRET=
 artist_uri = artist_songs.query_artist_uri(user_artist)
 TOP_TRACK_URL = f'https://api.spotify.com/v1/artists/{artist_uri}/top-tracks?market=US'
 album_selection = ['Starboy']
-
-
 
 all_time_df, all_time_artist_df, all_time_album_df, all_time_song_df = all_time_songs.return_all_time_songs(sp)
 
