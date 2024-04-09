@@ -1,0 +1,564 @@
+,artist_id,artist_name,external_url
+0,1Xyo4u8uXC1ZmMpatF05PJ,The Weeknd,https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ
+1,6eUKZXaKkcviH0Ku9w2n3V,Ed Sheeran,https://api.spotify.com/v1/artists/6eUKZXaKkcviH0Ku9w2n3V
+2,4GNC7GD6oZMSxPGyXy4MNB,Lewis Capaldi,https://api.spotify.com/v1/artists/4GNC7GD6oZMSxPGyXy4MNB
+3,246dkjvS1zLTtiykXe5h60,Post Malone,https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60
+4,1zNqQNIdeOUZHb8zbZRFMX,Swae Lee,https://api.spotify.com/v1/artists/1zNqQNIdeOUZHb8zbZRFMX
+6,4tZwfgrHOc3mvqYlEYSvVi,Daft Punk,https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi
+7,6KImCVD70vtIoJWnq6nGn3,Harry Styles,https://api.spotify.com/v1/artists/6KImCVD70vtIoJWnq6nGn3
+8,2NjfBq1NflQcKSeiDooVjY,Tones And I,https://api.spotify.com/v1/artists/2NjfBq1NflQcKSeiDooVjY
+9,3TVXtAsR1Inumwj472S9r4,Drake,https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4
+10,3tVQdUvClmAT7URs9V3rsp,Wizkid,https://api.spotify.com/v1/artists/3tVQdUvClmAT7URs9V3rsp
+11,77DAFfvm3O9zT5dIoG0eIO,Kyla,https://api.spotify.com/v1/artists/77DAFfvm3O9zT5dIoG0eIO
+12,2tIP7SsRs7vjIcLrU85W8J,The Kid LAROI,https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J
+13,1uNFoZAHBGtllmzznpCI3s,Justin Bieber,https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s
+15,1URnnhqYAYcrqrcwql10ft,21 Savage,https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft
+16,53XhwfbYqKCa1cC15pYq2q,Imagine Dragons,https://api.spotify.com/v1/artists/53XhwfbYqKCa1cC15pYq2q
+17,4yvcSjfu4PC0CYQyLy4wSq,Glass Animals,https://api.spotify.com/v1/artists/4yvcSjfu4PC0CYQyLy4wSq
+19,69GGBxA162lTqCwzJG5jLp,The Chainsmokers,https://api.spotify.com/v1/artists/69GGBxA162lTqCwzJG5jLp
+20,26VFTg2z8YR0cCuwLzESi2,Halsey,https://api.spotify.com/v1/artists/26VFTg2z8YR0cCuwLzESi2
+21,77SW9BnxLY8rJ0RciFqkHh,The Neighbourhood,https://api.spotify.com/v1/artists/77SW9BnxLY8rJ0RciFqkHh
+22,4IWBUUAFIplrNtaOHcJPRM,James Arthur,https://api.spotify.com/v1/artists/4IWBUUAFIplrNtaOHcJPRM
+23,6qqNVTkY8uBg9cP3Jd7DAH,Billie Eilish,https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH
+24,6LuN9FCkKOj5PcnpouEgny,Khalid,https://api.spotify.com/v1/artists/6LuN9FCkKOj5PcnpouEgny
+25,7n2wHs1TKAczGzO7Dd2rGr,Shawn Mendes,https://api.spotify.com/v1/artists/7n2wHs1TKAczGzO7Dd2rGr
+26,4nDoRrQiYLoBzwC5BhVJzF,Camila Cabello,https://api.spotify.com/v1/artists/4nDoRrQiYLoBzwC5BhVJzF
+28,6M2wZ9GZgrQXHCFfjv46we,Dua Lipa,https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we
+29,4MCBfE4596Uoi2O4DtmEMz,Juice WRLD,https://api.spotify.com/v1/artists/4MCBfE4596Uoi2O4DtmEMz
+35,4gzpq5DPGxSnKTe4SA8HAU,Coldplay,https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU
+36,1dfeR4HaWDbWqFHLkxsg1d,Queen,https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d
+37,2FXC3k01G6Gw61bmprjgqS,Hozier,https://api.spotify.com/v1/artists/2FXC3k01G6Gw61bmprjgqS
+39,1HY2Jd0NmPuamShAr6KMms,Lady Gaga,https://api.spotify.com/v1/artists/1HY2Jd0NmPuamShAr6KMms
+40,4VIvfOurcf0vuLRxLkGnIG,Bradley Cooper,https://api.spotify.com/v1/artists/4VIvfOurcf0vuLRxLkGnIG
+41,10exVja0key0uqUkk6LJRT,Vance Joy,https://api.spotify.com/v1/artists/10exVja0key0uqUkk6LJRT
+43,5Pwc4xIPtQLFEnJriah9YJ,OneRepublic,https://api.spotify.com/v1/artists/5Pwc4xIPtQLFEnJriah9YJ
+44,5y2Xq6xcjJb2jVM54GHK3t,John Legend,https://api.spotify.com/v1/artists/5y2Xq6xcjJb2jVM54GHK3t
+46,0Y5tJX1MQlPlqiwlOH1tJY,Travis Scott,https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY
+47,5BcAKTbp20cv7tC5VqPFoC,Macklemore & Ryan Lewis,https://api.spotify.com/v1/artists/5BcAKTbp20cv7tC5VqPFoC
+48,3JhNCzhSMTxs9WLGJJxWOY,Macklemore,https://api.spotify.com/v1/artists/3JhNCzhSMTxs9WLGJJxWOY
+49,4myTppRgh0rojLxx8RycOp,Ryan Lewis,https://api.spotify.com/v1/artists/4myTppRgh0rojLxx8RycOp
+50,4e0nWw2r4BoQSKPQ2zpU13,Ray Dalton,https://api.spotify.com/v1/artists/4e0nWw2r4BoQSKPQ2zpU13
+51,3YQKmKGau1PzlVlkL1iodx,Twenty One Pilots,https://api.spotify.com/v1/artists/3YQKmKGau1PzlVlkL1iodx
+52,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR
+53,1vCWHaC5f2uS3yhpwWbIA6,Avicii,https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+54,15UsOTVnJzReFVN1VCnxy4,XXXTENTACION,https://api.spotify.com/v1/artists/15UsOTVnJzReFVN1VCnxy4
+55,2txHhyCwHjUEpJjWrEyqyX,Tom Odell,https://api.spotify.com/v1/artists/2txHhyCwHjUEpJjWrEyqyX
+57,0gadJ2b9A4SKsB1RFkBb66,Passenger,https://api.spotify.com/v1/artists/0gadJ2b9A4SKsB1RFkBb66
+59,2YZyLoL8N0Wb9xBt1NhZWg,Kendrick Lamar,https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg
+61,7CajNmpbOovFoOoasH2HaY,Calvin Harris,https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY
+63,4O15NlyKLIASxsJ0PrXPfz,Lil Uzi Vert,https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz
+64,1McMsnEElThX1knmY4oliG,Olivia Rodrigo,https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG
+66,6l3HvQ5sa6mXTsMTB19rO5,J. Cole,https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5
+68,7dGJo4pcD2V6oG8kP0tJRR,Eminem,https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR
+71,64KEffDW9EtZ1y2vBYgq8T,Marshmello,https://api.spotify.com/v1/artists/64KEffDW9EtZ1y2vBYgq8T
+72,7EQ0qTo7fWT7DPxmxtSYEc,Bastille,https://api.spotify.com/v1/artists/7EQ0qTo7fWT7DPxmxtSYEc
+74,7Ln80lUS6He07XvHI8qqHH,Arctic Monkeys,https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH
+75,540vIaP2JwjQb9dm3aArA4,DJ Snake,https://api.spotify.com/v1/artists/540vIaP2JwjQb9dm3aArA4
+79,50co4Is1HCEo8bhOyUWKpn,Young Thug,https://api.spotify.com/v1/artists/50co4Is1HCEo8bhOyUWKpn
+80,0C0XlULifJtAgn6ZNCW2eu,The Killers,https://api.spotify.com/v1/artists/0C0XlULifJtAgn6ZNCW2eu
+82,4r63FhuTkUYltbVAg5TQnk,DaBaby,https://api.spotify.com/v1/artists/4r63FhuTkUYltbVAg5TQnk
+84,2wY79sveU1sp5g7SokKOiI,Sam Smith,https://api.spotify.com/v1/artists/2wY79sveU1sp5g7SokKOiI
+87,7jVv8c5Fj3E9VhNjxT4snq,Lil Nas X,https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq
+88,2LIk90788K0zvyj2JJVwkJ,Jack Harlow,https://api.spotify.com/v1/artists/2LIk90788K0zvyj2JJVwkJ
+89,738wLrAtLtCtFOLvQBXOXp,Major Lazer,https://api.spotify.com/v1/artists/738wLrAtLtCtFOLvQBXOXp
+90,0bdfiayQAKewqEvaU6rXCv,MØ,https://api.spotify.com/v1/artists/0bdfiayQAKewqEvaU6rXCv
+95,0VRj0yCOv2FXJNP47XQnx5,Quavo,https://api.spotify.com/v1/artists/0VRj0yCOv2FXJNP47XQnx5
+96,04gDigrS5kc9YWfZHwBETP,Maroon 5,https://api.spotify.com/v1/artists/04gDigrS5kc9YWfZHwBETP
+98,0du5cEVh5yTK9QJze8zA0C,Bruno Mars,https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C
+99,4q3ewBCX7sLwd24euuV69X,Bad Bunny,https://api.spotify.com/v1/artists/4q3ewBCX7sLwd24euuV69X
+100,6nVcHLIgY5pE2YCl8ubca1,Jhayco,https://api.spotify.com/v1/artists/6nVcHLIgY5pE2YCl8ubca1
+102,3hv9jJF3adDNsBSIQDqcjp,Mark Ronson,https://api.spotify.com/v1/artists/3hv9jJF3adDNsBSIQDqcjp
+104,6vXTefBL93Dj5IqAWq6OTv,French Montana,https://api.spotify.com/v1/artists/6vXTefBL93Dj5IqAWq6OTv
+106,0H39MdGGX6dbnnQPt6NQkZ,SAINt JHN,https://api.spotify.com/v1/artists/0H39MdGGX6dbnnQPt6NQkZ
+107,5rGrDvrLOV2VV8SCFVGWlj,Imanbek,https://api.spotify.com/v1/artists/5rGrDvrLOV2VV8SCFVGWlj
+109,2DaxqgrOhkeH0fpeiQq2f4,Oasis,https://api.spotify.com/v1/artists/2DaxqgrOhkeH0fpeiQq2f4
+110,6olE6TJLqED3rqDCT0FyPh,Nirvana,https://api.spotify.com/v1/artists/6olE6TJLqED3rqDCT0FyPh
+111,7vk5e3vY1uw9plTHJAMwjN,Alan Walker,https://api.spotify.com/v1/artists/7vk5e3vY1uw9plTHJAMwjN
+113,2KsP6tYLJlTBvSUxnwlVWa,Mike Posner,https://api.spotify.com/v1/artists/2KsP6tYLJlTBvSUxnwlVWa
+114,5iNrZmtVMtYev5M9yoWpEq,Seeb,https://api.spotify.com/v1/artists/5iNrZmtVMtYev5M9yoWpEq
+116,1Oa0bMld0A3u5OTYfMzp5h,Nate Dogg,https://api.spotify.com/v1/artists/1Oa0bMld0A3u5OTYfMzp5h
+118,3PhoLpVuITZKcymswpck5b,Elton John,https://api.spotify.com/v1/artists/3PhoLpVuITZKcymswpck5b
+120,6n28c9qs9hNGriNa72b26u,PNAU,https://api.spotify.com/v1/artists/6n28c9qs9hNGriNa72b26u
+121,6XyY86QOPPrYVGvF9ch6wz,Linkin Park,https://api.spotify.com/v1/artists/6XyY86QOPPrYVGvF9ch6wz
+122,5NGO30tJxFlKixkPSgXcFE,The Police,https://api.spotify.com/v1/artists/5NGO30tJxFlKixkPSgXcFE
+125,6Dd3NScHWwnW6obMFbl1BH,Daya,https://api.spotify.com/v1/artists/6Dd3NScHWwnW6obMFbl1BH
+128,4iHNK0tOyZPYnBU7nGAgpQ,Mariah Carey,https://api.spotify.com/v1/artists/4iHNK0tOyZPYnBU7nGAgpQ
+130,4dpARuHxo51G3z768sgnrY,Adele,https://api.spotify.com/v1/artists/4dpARuHxo51G3z768sgnrY
+131,3Nrfpe0tUJi4K4DXYWgMUX,BTS,https://api.spotify.com/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX
+132,757aE44tKEUQEqRuT6GnEB,Roddy Ricch,https://api.spotify.com/v1/artists/757aE44tKEUQEqRuT6GnEB
+134,6fWVd57NKTalqvmjRd2t8Z,24kGoldn,https://api.spotify.com/v1/artists/6fWVd57NKTalqvmjRd2t8Z
+135,6ASri4ePR7RlsvIQgWPJpS,iann dior,https://api.spotify.com/v1/artists/6ASri4ePR7RlsvIQgWPJpS
+136,25u4wHJWxCA9vO0CzxAbK7,Lukas Graham,https://api.spotify.com/v1/artists/25u4wHJWxCA9vO0CzxAbK7
+138,1WsYCXdezMjn0KoIrLvMmC,Ed Sheeran & Justin Bieber,https://api.spotify.com/v1/artists/1WsYCXdezMjn0KoIrLvMmC
+140,137W8MRPWKqSmrBGDBFSop,Wiz Khalifa,https://api.spotify.com/v1/artists/137W8MRPWKqSmrBGDBFSop
+141,6VuMaDnrHyPL1p4EHjYLi7,Charlie Puth,https://api.spotify.com/v1/artists/6VuMaDnrHyPL1p4EHjYLi7
+144,4phGZZrJZRo4ElhRtViYdl,Jason Mraz,https://api.spotify.com/v1/artists/4phGZZrJZRo4ElhRtViYdl
+145,0rvjqX7ttXeg3mTy8Xscbt,Journey,https://api.spotify.com/v1/artists/0rvjqX7ttXeg3mTy8Xscbt
+147,4V8Sr092TqfHkfAA5fXXqG,Luis Fonsi,https://api.spotify.com/v1/artists/4V8Sr092TqfHkfAA5fXXqG
+148,4VMYDCV2IEDYJArk749S6m,Daddy Yankee,https://api.spotify.com/v1/artists/4VMYDCV2IEDYJArk749S6m
+151,5WUlDfRSoLAfcVSX1WnrxN,Sia,https://api.spotify.com/v1/artists/5WUlDfRSoLAfcVSX1WnrxN
+153,5YGY8feqx7naU7z4HrwZM6,Miley Cyrus,https://api.spotify.com/v1/artists/5YGY8feqx7naU7z4HrwZM6
+154,06HL4z0CvFAxyc27GXpf02,Taylor Swift,https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02
+156,5JZ7CnR6gTvEMKX4g70Amv,Lauv,https://api.spotify.com/v1/artists/5JZ7CnR6gTvEMKX4g70Amv
+158,4kYSro6naA4h99UJvo89HB,Cardi B,https://api.spotify.com/v1/artists/4kYSro6naA4h99UJvo89HB
+164,5Rl15oVamLq7FbSb0NNBNy,5 Seconds of Summer,https://api.spotify.com/v1/artists/5Rl15oVamLq7FbSb0NNBNy
+165,6ltzsmQQbmdoHHbLZ4ZN25,Lord Huron,https://api.spotify.com/v1/artists/6ltzsmQQbmdoHHbLZ4ZN25
+166,31TPClRtHm23RisEBtV3X7,Justin Timberlake,https://api.spotify.com/v1/artists/31TPClRtHm23RisEBtV3X7
+167,2jzc5TC5TVFLXQlBNiIUzE,a-ha,https://api.spotify.com/v1/artists/2jzc5TC5TVFLXQlBNiIUzE
+174,0C8ZW7ezQVs4URX5aX7Kqx,Selena Gomez,https://api.spotify.com/v1/artists/0C8ZW7ezQVs4URX5aX7Kqx
+175,5CiGnKThu5ctn9pBxv7DGa,benny blanco,https://api.spotify.com/v1/artists/5CiGnKThu5ctn9pBxv7DGa
+179,60rpJ9SgigSd16DOAG7GSa,Billy Ray Cyrus,https://api.spotify.com/v1/artists/60rpJ9SgigSd16DOAG7GSa
+180,5MouCg6ta7zAxsfMEbc1uh,OMI,https://api.spotify.com/v1/artists/5MouCg6ta7zAxsfMEbc1uh
+185,4npEfmQ6YuiwW1GpUmaq3F,Ava Max,https://api.spotify.com/v1/artists/4npEfmQ6YuiwW1GpUmaq3F
+189,1vyhD5VmyZ7KMfW5gqLgo5,J Balvin,https://api.spotify.com/v1/artists/1vyhD5VmyZ7KMfW5gqLgo5
+191,3QSQFmccmX81fWCUSPTS7y,Dean Lewis,https://api.spotify.com/v1/artists/3QSQFmccmX81fWCUSPTS7y
+192,7uaIm6Pw7xplS8Dy06V6pT,Trevor Daniel,https://api.spotify.com/v1/artists/7uaIm6Pw7xplS8Dy06V6pT
+195,1i8SpTcr7yvPOmcqrbnVXY,Ozuna,https://api.spotify.com/v1/artists/1i8SpTcr7yvPOmcqrbnVXY
+198,5pKCCKE2ajJHZ9KAiaK11H,Rihanna,https://api.spotify.com/v1/artists/5pKCCKE2ajJHZ9KAiaK11H
+202,0PFtn5NtBbbUNbU9EAmIWF,TOTO,https://api.spotify.com/v1/artists/0PFtn5NtBbbUNbU9EAmIWF
+203,716NhGYqD1jl2wI1Qkgq36,Bizarrap,https://api.spotify.com/v1/artists/716NhGYqD1jl2wI1Qkgq36
+204,52iwsT98xCoGgiGntTiR7K,Quevedo,https://api.spotify.com/v1/artists/52iwsT98xCoGgiGntTiR7K
+207,7c0XG5cIJTrrAgEC3ULPiq,Ty Dolla $ign,https://api.spotify.com/v1/artists/7c0XG5cIJTrrAgEC3ULPiq
+212,7gP3bB2nilZXLfPHJhMdvc,Foster The People,https://api.spotify.com/v1/artists/7gP3bB2nilZXLfPHJhMdvc
+214,6bmlMHgSheBauioMgKv2tn,Powfu,https://api.spotify.com/v1/artists/6bmlMHgSheBauioMgKv2tn
+215,35l9BRT7MXmM8bv2WDQiyB,beabadoobee,https://api.spotify.com/v1/artists/35l9BRT7MXmM8bv2WDQiyB
+217,37230BxxYs9ksS7OkZw3IU,Chencho Corleone,https://api.spotify.com/v1/artists/37230BxxYs9ksS7OkZw3IU
+218,5cj0lLjcoR7YOSnhnX0Po5,Doja Cat,https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5
+219,7tYKF4w9nC0nq9CsPZTHyP,SZA,https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP
+220,5H1nN1SzW0qNeUEZvuXjAj,Danny Ocean,https://api.spotify.com/v1/artists/5H1nN1SzW0qNeUEZvuXjAj
+221,0vRvGUQVUjytro0xpb26bs,Arizona Zervas,https://api.spotify.com/v1/artists/0vRvGUQVUjytro0xpb26bs
+222,5ZsFI1h6hIdQRw2ti0hz81,ZAYN,https://api.spotify.com/v1/artists/5ZsFI1h6hIdQRw2ti0hz81
+226,20JZFwl6HVl6yg8a4H3ZqK,Panic! At The Disco,https://api.spotify.com/v1/artists/20JZFwl6HVl6yg8a4H3ZqK
+227,3qm84nBOXUEQ2vnTfUTTFC,Guns N' Roses,https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC
+228,0X2BH1fck6amBIoJhDVmmJ,Ellie Goulding,https://api.spotify.com/v1/artists/0X2BH1fck6amBIoJhDVmmJ
+229,6MDME20pz9RveH9rEXvrOM,Clean Bandit,https://api.spotify.com/v1/artists/6MDME20pz9RveH9rEXvrOM
+230,3Isy6kedDrgPYoTS1dazA9,Sean Paul,https://api.spotify.com/v1/artists/3Isy6kedDrgPYoTS1dazA9
+231,1zNqDE7qDGCsyzJwohVaoX,Anne-Marie,https://api.spotify.com/v1/artists/1zNqDE7qDGCsyzJwohVaoX
+234,790FomKkXshlbRYZFtlgla,KAROL G,https://api.spotify.com/v1/artists/790FomKkXshlbRYZFtlgla
+235,0hCNtLu0JehylgoiP8L4Gh,Nicki Minaj,https://api.spotify.com/v1/artists/0hCNtLu0JehylgoiP8L4Gh
+236,6T5tfhQCknKG4UnH90qGnz,DNCE,https://api.spotify.com/v1/artists/6T5tfhQCknKG4UnH90qGnz
+237,2qxJFvFYMEDqd7ui6kSAcq,Zedd,https://api.spotify.com/v1/artists/2qxJFvFYMEDqd7ui6kSAcq
+238,6WY7D3jk8zTrHtmkqqo5GI,Maren Morris,https://api.spotify.com/v1/artists/6WY7D3jk8zTrHtmkqqo5GI
+239,4lDBihdpMlOalxy1jkUbPl,Grey,https://api.spotify.com/v1/artists/4lDBihdpMlOalxy1jkUbPl
+243,4RSyJzf7ef6Iu2rnLdabNq,Willy William,https://api.spotify.com/v1/artists/4RSyJzf7ef6Iu2rnLdabNq
+244,7H55rcKCfwqkyDFH9wpKM6,Christina Perri,https://api.spotify.com/v1/artists/7H55rcKCfwqkyDFH9wpKM6
+245,1l8Fu6IkuTP0U5QetQJ5Xt,Fifth Harmony,https://api.spotify.com/v1/artists/1l8Fu6IkuTP0U5QetQJ5Xt
+249,20wkVLutqVOYrc0kxFs7rA,Daniel Caesar,https://api.spotify.com/v1/artists/20wkVLutqVOYrc0kxFs7rA
+250,4fxd5Ee7UefO4CUXgwJ7IP,Giveon,https://api.spotify.com/v1/artists/4fxd5Ee7UefO4CUXgwJ7IP
+251,5IH6FPUwQTxPSXurCrcIov,Alec Benjamin,https://api.spotify.com/v1/artists/5IH6FPUwQTxPSXurCrcIov
+254,1RyvyyTE3xzB2ZywiAwp0i,Future,https://api.spotify.com/v1/artists/1RyvyyTE3xzB2ZywiAwp0i
+255,3iri9nBFs9e4wN7PLIetAw,gnash,https://api.spotify.com/v1/artists/3iri9nBFs9e4wN7PLIetAw
+256,1QRj3hoop9Mv5VvHQkwPEp,Olivia O'Brien,https://api.spotify.com/v1/artists/1QRj3hoop9Mv5VvHQkwPEp
+258,6Xgp2XMz1fhVYe7i6yNAax,Trippie Redd,https://api.spotify.com/v1/artists/6Xgp2XMz1fhVYe7i6yNAax
+260,2AsusXITU8P25dlRNhcAbG,Gotye,https://api.spotify.com/v1/artists/2AsusXITU8P25dlRNhcAbG
+261,6hk7Yq1DU9QcCCrz9uc0Ti,Kimbra,https://api.spotify.com/v1/artists/6hk7Yq1DU9QcCCrz9uc0Ti
+262,23fqKkggKUBHNkbKtXEls4,Kygo,https://api.spotify.com/v1/artists/23fqKkggKUBHNkbKtXEls4
+264,6DIS6PRrLS3wbnZsf7vYic,WALK THE MOON,https://api.spotify.com/v1/artists/6DIS6PRrLS3wbnZsf7vYic
+269,6fOMl44jA4Sp5b9PpYCkzz,NF,https://api.spotify.com/v1/artists/6fOMl44jA4Sp5b9PpYCkzz
+270,6vWDO969PvNqNYHIOW5v0m,Beyoncé,https://api.spotify.com/v1/artists/6vWDO969PvNqNYHIOW5v0m
+271,73sIBHcqh3Z3NyqHKZ7FOL,Childish Gambino,https://api.spotify.com/v1/artists/73sIBHcqh3Z3NyqHKZ7FOL
+272,3fMbdgg4jU18AjLCKBhRSm,Michael Jackson,https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm
+273,4W12lEvVl5wectUtRNrvDh,White Noise Baby Sleep,https://api.spotify.com/v1/artists/4W12lEvVl5wectUtRNrvDh
+274,4ZfEELHfyKd4odAb6YfDFw,White Noise for Babies,https://api.spotify.com/v1/artists/4ZfEELHfyKd4odAb6YfDFw
+275,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,https://api.spotify.com/v1/artists/1Cs0zKBU1kc0i8ypK3B9ai
+278,3v6Ji4uoWtKRkhuDUaxi9n,Dynoro,https://api.spotify.com/v1/artists/3v6Ji4uoWtKRkhuDUaxi9n
+279,1OAjDaKgg00KCUYqDe68un,Gigi D'Agostino,https://api.spotify.com/v1/artists/1OAjDaKgg00KCUYqDe68un
+283,4xRYI6VqpkE3UwrDrAZL8L,Logic,https://api.spotify.com/v1/artists/4xRYI6VqpkE3UwrDrAZL8L
+284,2wUjUUtkb5lvLKcGKsKqsR,Alessia Cara,https://api.spotify.com/v1/artists/2wUjUUtkb5lvLKcGKsKqsR
+286,64M6ah0SkkRsnPGtGiRAbb,Bebe Rexha,https://api.spotify.com/v1/artists/64M6ah0SkkRsnPGtGiRAbb
+287,3b8QkneNDz4JHKKKlLgYZg,Florida Georgia Line,https://api.spotify.com/v1/artists/3b8QkneNDz4JHKKKlLgYZg
+289,1Xylc3o4UrD53lo9CvFvVg,Zara Larsson,https://api.spotify.com/v1/artists/1Xylc3o4UrD53lo9CvFvVg
+290,60d24wfXkVzDSfLS6hyCjZ,Martin Garrix,https://api.spotify.com/v1/artists/60d24wfXkVzDSfLS6hyCjZ
+293,0oSGxfWSnnOXhD2fKuz2Gy,David Bowie,https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy
+298,5LHRHt1k9lMyONurDHEdrp,Tyga,https://api.spotify.com/v1/artists/5LHRHt1k9lMyONurDHEdrp
+299,4DdkRBBYG6Yk9Ka8tdJ9BW,Offset,https://api.spotify.com/v1/artists/4DdkRBBYG6Yk9Ka8tdJ9BW
+302,5INjqkS1o8h1imAzPqGZBb,Tame Impala,https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb
+306,0QHgL1lAIqAw0HtD7YldmP,DJ Khaled,https://api.spotify.com/v1/artists/0QHgL1lAIqAw0HtD7YldmP
+309,1anyVhU62p31KFi8MEzkbf,Chance the Rapper,https://api.spotify.com/v1/artists/1anyVhU62p31KFi8MEzkbf
+310,55Aa2cqylxrFIXC767Z865,Lil Wayne,https://api.spotify.com/v1/artists/55Aa2cqylxrFIXC767Z865
+315,7gOdHgIoIKoe4i9Tta6qdD,Jonas Brothers,https://api.spotify.com/v1/artists/7gOdHgIoIKoe4i9Tta6qdD
+316,4F84IBURUo98rz4r61KF70,The White Stripes,https://api.spotify.com/v1/artists/4F84IBURUo98rz4r61KF70
+317,0ECwFtbIWEVNwjlrfc6xoL,Eagles,https://api.spotify.com/v1/artists/0ECwFtbIWEVNwjlrfc6xoL
+319,3uZFBSsMiooimnprFL9jD1,Snow,https://api.spotify.com/v1/artists/3uZFBSsMiooimnprFL9jD1
+321,0lAWpj5szCSwM4rUMHYmrr,Måneskin,https://api.spotify.com/v1/artists/0lAWpj5szCSwM4rUMHYmrr
+323,5lpH0xAS4fVfLkACg9DAuM,Wham!,https://api.spotify.com/v1/artists/5lpH0xAS4fVfLkACg9DAuM
+325,0GM7qgcRCORpGnfcN2tCiB,Tainy,https://api.spotify.com/v1/artists/0GM7qgcRCORpGnfcN2tCiB
+327,4QQgXkCYTt3BlENzhyNETg,Earth; Wind & Fire,https://api.spotify.com/v1/artists/4QQgXkCYTt3BlENzhyNETg
+337,02kJSzxNuaWGqwubyUba0Z,G-Eazy,https://api.spotify.com/v1/artists/02kJSzxNuaWGqwubyUba0Z
+341,711MCceyCBcFnzjGY4Q7Un,AC/DC,https://api.spotify.com/v1/artists/711MCceyCBcFnzjGY4Q7Un
+342,4ofCBoyEiGSePFAG500xev,Regard,https://api.spotify.com/v1/artists/4ofCBoyEiGSePFAG500xev
+343,2RdwBSPQiwcmiDo9kixcl8,Pharrell Williams,https://api.spotify.com/v1/artists/2RdwBSPQiwcmiDo9kixcl8
+344,3FUY2gzHeIiaesXtOAdB7A,Train,https://api.spotify.com/v1/artists/3FUY2gzHeIiaesXtOAdB7A
+347,181bsRPaVXVlUKXrxwZfHK,Megan Thee Stallion,https://api.spotify.com/v1/artists/181bsRPaVXVlUKXrxwZfHK
+349,6MPCFvOQv5cIGfw3jODMF0,Internet Money,https://api.spotify.com/v1/artists/6MPCFvOQv5cIGfw3jODMF0
+350,2hlmm7s2ICUX0LVIhVFlZQ,Gunna,https://api.spotify.com/v1/artists/2hlmm7s2ICUX0LVIhVFlZQ
+351,4Gso3d4CscCijv0lmajZWs,Don Toliver,https://api.spotify.com/v1/artists/4Gso3d4CscCijv0lmajZWs
+352,7rkW85dBwwrJtlHRDkJDAC,NAV,https://api.spotify.com/v1/artists/7rkW85dBwwrJtlHRDkJDAC
+354,0DxeaLnv6SyYk2DOqkLO8c,MAGIC!,https://api.spotify.com/v1/artists/0DxeaLnv6SyYk2DOqkLO8c
+357,5zctI4wO9XSKS8XwcnqEHk,Lil Mosey,https://api.spotify.com/v1/artists/5zctI4wO9XSKS8XwcnqEHk
+358,7pFeBzX627ff0VnN6bxPR4,Desiigner,https://api.spotify.com/v1/artists/7pFeBzX627ff0VnN6bxPR4
+359,2gsggkzM5R49q6jpPvazou,Jessie J,https://api.spotify.com/v1/artists/2gsggkzM5R49q6jpPvazou
+363,4VZY0nxYMSNotbS7WjNVQy,Nyla,https://api.spotify.com/v1/artists/4VZY0nxYMSNotbS7WjNVQy
+364,374sWpAJsbZckf98df2jJJ,Fuse ODG,https://api.spotify.com/v1/artists/374sWpAJsbZckf98df2jJJ
+365,2XnBwblw31dfGnspMIwgWz,Axwell /\ Ingrosso,https://api.spotify.com/v1/artists/2XnBwblw31dfGnspMIwgWz
+370,5p7f24Rk5HkUZsaS3BLG5F,Hailee Steinfeld,https://api.spotify.com/v1/artists/5p7f24Rk5HkUZsaS3BLG5F
+374,0EmeFodog0BfCgMzAIvKQp,Shakira,https://api.spotify.com/v1/artists/0EmeFodog0BfCgMzAIvKQp
+375,7aBzpmFXB4WWpPl2F7RjBe,Wyclef Jean,https://api.spotify.com/v1/artists/7aBzpmFXB4WWpPl2F7RjBe
+376,2cFrymmkijnjDg9SS92EPM,blackbear,https://api.spotify.com/v1/artists/2cFrymmkijnjDg9SS92EPM
+377,7hJcb9fa4alzcOq3EaNPoG,Snoop Dogg,https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG
+382,5K4W6rqBFWDnAN6FQUkS6x,Kanye West,https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x
+384,4ScCswdRlyA23odg9thgIO,Jess Glynne,https://api.spotify.com/v1/artists/4ScCswdRlyA23odg9thgIO
+386,0iEtIxbK0KxaSlF7G42ZOp,Metro Boomin,https://api.spotify.com/v1/artists/0iEtIxbK0KxaSlF7G42ZOp
+388,4kI8Ie27vjvonwaB2ePh8T,Portugal. The Man,https://api.spotify.com/v1/artists/4kI8Ie27vjvonwaB2ePh8T
+391,2cWZOOzeOm4WmBJRnD5R7I,Normani,https://api.spotify.com/v1/artists/2cWZOOzeOm4WmBJRnD5R7I
+392,08GQAI4eElDnROBrJRGE0X,Fleetwood Mac,https://api.spotify.com/v1/artists/08GQAI4eElDnROBrJRGE0X
+393,0TnOYISbd1XYRBk9myaseg,Pitbull,https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg
+394,6LqNN22kT3074XbTVUrhzX,Kesha,https://api.spotify.com/v1/artists/6LqNN22kT3074XbTVUrhzX
+396,0ZED1XzwlLHW4ZaG4lOT6m,Julia Michaels,https://api.spotify.com/v1/artists/0ZED1XzwlLHW4ZaG4lOT6m
+404,58lV9VcRSjABbAbfWS6skp,Bon Jovi,https://api.spotify.com/v1/artists/58lV9VcRSjABbAbfWS6skp
+405,329e4yvIujISKGKz1BZZbO,Farruko,https://api.spotify.com/v1/artists/329e4yvIujISKGKz1BZZbO
+406,4Ga1P7PMIsmqEZqhYZQgDo,Lil Tecca,https://api.spotify.com/v1/artists/4Ga1P7PMIsmqEZqhYZQgDo
+408,1hzfo8twXdOegF3xireCYs,Milky Chance,https://api.spotify.com/v1/artists/1hzfo8twXdOegF3xireCYs
+413,4QVBYiagIaa6ZGSPMbybpy,Pedro Capó,https://api.spotify.com/v1/artists/4QVBYiagIaa6ZGSPMbybpy
+415,6S2OmqARrzebs0tKUEyXyp,Demi Lovato,https://api.spotify.com/v1/artists/6S2OmqARrzebs0tKUEyXyp
+417,3AQRLZ9PuTAozP28Skbq8V,The Script,https://api.spotify.com/v1/artists/3AQRLZ9PuTAozP28Skbq8V
+418,085pc2PYOi8bGKj0PNjekA,will.i.am,https://api.spotify.com/v1/artists/085pc2PYOi8bGKj0PNjekA
+419,5f7VJjfbwm532GiveGC0ZK,Lil Baby,https://api.spotify.com/v1/artists/5f7VJjfbwm532GiveGC0ZK
+423,2sil8z5kiy4r76CRTXxBCA,The Goo Goo Dolls,https://api.spotify.com/v1/artists/2sil8z5kiy4r76CRTXxBCA
+425,3t5xRXzsuZmMDkQzgOX35S,Robin Schulz,https://api.spotify.com/v1/artists/3t5xRXzsuZmMDkQzgOX35S
+426,5X1JzPIIonP3u9lA580pPT,Francesco Yates,https://api.spotify.com/v1/artists/5X1JzPIIonP3u9lA580pPT
+428,3y24n3XhZ96wgwRXjvS17T,Coolio,https://api.spotify.com/v1/artists/3y24n3XhZ96wgwRXjvS17T
+429,2LhsePRtgCo4THVKULQBL7,L.V.,https://api.spotify.com/v1/artists/2LhsePRtgCo4THVKULQBL7
+433,5rSXSAkZ67PYJSvpUpkOr7,Backstreet Boys,https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7
+435,2l35CQqtYRh3d8ZIiBep4v,MKTO,https://api.spotify.com/v1/artists/2l35CQqtYRh3d8ZIiBep4v
+436,1uU7g3DNSbsu0QjSEqZtEd,Masked Wolf,https://api.spotify.com/v1/artists/1uU7g3DNSbsu0QjSEqZtEd
+437,45dkTj5sMRSjrmBSBeiHym,Tate McRae,https://api.spotify.com/v1/artists/45dkTj5sMRSjrmBSBeiHym
+439,2R21vXR83lH98kGeO99Y66,Anuel AA,https://api.spotify.com/v1/artists/2R21vXR83lH98kGeO99Y66
+444,0L8ExT028jH3ddEcZwqJJ5,Red Hot Chili Peppers,https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5
+445,6DPYiyq5kWVQS4RGwxzPC7,Dr. Dre,https://api.spotify.com/v1/artists/6DPYiyq5kWVQS4RGwxzPC7
+448,4Z8W4fKeB5YxbusRsdQVPb,Radiohead,https://api.spotify.com/v1/artists/4Z8W4fKeB5YxbusRsdQVPb
+450,5hdhHgpxyniooUiQVaPxQ0,Nio Garcia,https://api.spotify.com/v1/artists/5hdhHgpxyniooUiQVaPxQ0
+451,1fux65HMCBvfJHqlBc4Nno,Casper Magico,https://api.spotify.com/v1/artists/1fux65HMCBvfJHqlBc4Nno
+453,1TtXnWcUs0FCkaZDPGYHdf,Darell,https://api.spotify.com/v1/artists/1TtXnWcUs0FCkaZDPGYHdf
+455,1SupJlEpv7RS2tPNRaHViT,Nicky Jam,https://api.spotify.com/v1/artists/1SupJlEpv7RS2tPNRaHViT
+456,33ScadVnbm2X8kkUqOkC6Z,Don Omar,https://api.spotify.com/v1/artists/33ScadVnbm2X8kkUqOkC6Z
+457,5bv5RplEOwdCvhq0EILh9E,Lucenzo,https://api.spotify.com/v1/artists/5bv5RplEOwdCvhq0EILh9E
+462,4Uc8Dsxct0oMqx0P6i60ea,Conan Gray,https://api.spotify.com/v1/artists/4Uc8Dsxct0oMqx0P6i60ea
+463,4EzkuveR9pLvDVFNx6foYD,James Bay,https://api.spotify.com/v1/artists/4EzkuveR9pLvDVFNx6foYD
+466,4MVyzYMgTwdP7Z49wAZHx0,Lynyrd Skynyrd,https://api.spotify.com/v1/artists/4MVyzYMgTwdP7Z49wAZHx0
+467,1r4hJ1h58CWwUQe3MxPuau,Maluma,https://api.spotify.com/v1/artists/1r4hJ1h58CWwUQe3MxPuau
+469,6jJ0s89eD6GaHleKKya26X,Katy Perry,https://api.spotify.com/v1/artists/6jJ0s89eD6GaHleKKya26X
+470,5gCRApTajqwbnHHPbr2Fpi,Juicy J,https://api.spotify.com/v1/artists/5gCRApTajqwbnHHPbr2Fpi
+471,3nFkdlSjzX9mRTtwJOzDYB,JAY-Z,https://api.spotify.com/v1/artists/3nFkdlSjzX9mRTtwJOzDYB
+473,2qk9voo8llSGYcZ6xrBzKx,Kings of Leon,https://api.spotify.com/v1/artists/2qk9voo8llSGYcZ6xrBzKx
+478,1mcTU81TzQhprhouKaTkpq,Rauw Alejandro,https://api.spotify.com/v1/artists/1mcTU81TzQhprhouKaTkpq
+479,3AA28KZvwAUcZuOKwyblJQ,Gorillaz,https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ
+482,3rIZMv9rysU7JkLzEaC5Jp,Snow Patrol,https://api.spotify.com/v1/artists/3rIZMv9rysU7JkLzEaC5Jp
+483,07YZf4WDAMNwqr4jfgOZ8y,Jason Derulo,https://api.spotify.com/v1/artists/07YZf4WDAMNwqr4jfgOZ8y
+486,6DgP9otnZw5z6daOntINxp,Joel Corry,https://api.spotify.com/v1/artists/6DgP9otnZw5z6daOntINxp
+487,7uMh23xWiuR7zsNkuNcm2G,MNEK,https://api.spotify.com/v1/artists/7uMh23xWiuR7zsNkuNcm2G
+490,3q7HBObVc0L8jNeTe5Gofh,50 Cent,https://api.spotify.com/v1/artists/3q7HBObVc0L8jNeTe5Gofh
+491,1HxJeLhIuegM3KgvPn8sTa,Jack Ü,https://api.spotify.com/v1/artists/1HxJeLhIuegM3KgvPn8sTa
+492,5he5w2lnU9x7JFhnwcekXX,Skrillex,https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX
+493,5fMUXHkw8R8eOP2RNVYEZX,Diplo,https://api.spotify.com/v1/artists/5fMUXHkw8R8eOP2RNVYEZX
+496,6U3ybJ9UHNKEdsH7ktGBZ7,JID,https://api.spotify.com/v1/artists/6U3ybJ9UHNKEdsH7ktGBZ7
+497,57nPqD7z62gDdq37US9XJR,Arcane,https://api.spotify.com/v1/artists/57nPqD7z62gDdq37US9XJR
+498,47mIJdHORyRerp4os813jD,League of Legends,https://api.spotify.com/v1/artists/47mIJdHORyRerp4os813jD
+502,2ye2Wgw4gimLv2eAKyk1NB,Metallica,https://api.spotify.com/v1/artists/2ye2Wgw4gimLv2eAKyk1NB
+504,56mfhUDKa1vec6rSLZV5Eg,Jawsh 685,https://api.spotify.com/v1/artists/56mfhUDKa1vec6rSLZV5Eg
+506,0u6GtibW46tFX7koQ6uNJZ,Topic,https://api.spotify.com/v1/artists/0u6GtibW46tFX7koQ6uNJZ
+507,5Wg2b4Mp42gicxEeDNawf7,A7S,https://api.spotify.com/v1/artists/5Wg2b4Mp42gicxEeDNawf7
+510,3MZsBdqDrRTJihTHQrO6Dq,Joji,https://api.spotify.com/v1/artists/3MZsBdqDrRTJihTHQrO6Dq
+514,6PXS4YHDkKvl1wkIl4V8DL,Fetty Wap,https://api.spotify.com/v1/artists/6PXS4YHDkKvl1wkIl4V8DL
+518,3NPpFNZtSTHheNBaWC82rB,X Ambassadors,https://api.spotify.com/v1/artists/3NPpFNZtSTHheNBaWC82rB
+523,4bthk9UfsYUYdcFyqxmSUU,Tears For Fears,https://api.spotify.com/v1/artists/4bthk9UfsYUYdcFyqxmSUU
+525,6ydoSd3N2mwgwBHtF6K7eX,Calum Scott,https://api.spotify.com/v1/artists/6ydoSd3N2mwgwBHtF6K7eX
+526,1KCSPY1glIKqW2TotWuXOR,P!nk,https://api.spotify.com/v1/artists/1KCSPY1glIKqW2TotWuXOR
+527,1qUjOF5fzrpoNycD36b2jZ,Nate Ruess,https://api.spotify.com/v1/artists/1qUjOF5fzrpoNycD36b2jZ
+528,1G9G7WwrXka3Z1r7aIDjI7,Outkast,https://api.spotify.com/v1/artists/1G9G7WwrXka3Z1r7aIDjI7
+530,1l7ZsJRRS8wlW3WfJfPfNS,Christina Aguilera,https://api.spotify.com/v1/artists/1l7ZsJRRS8wlW3WfJfPfNS
+533,1yxSLGMDHlW21z4YXirZDS,Black Eyed Peas,https://api.spotify.com/v1/artists/1yxSLGMDHlW21z4YXirZDS
+535,3jK9MiCrA42lLAdMGUZpwa,Anderson .Paak,https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa
+536,6PvvGcCY2XtUcSRld1Wilr,Silk Sonic,https://api.spotify.com/v1/artists/6PvvGcCY2XtUcSRld1Wilr
+537,163tK9Wjr9P9DmM0AVK7lm,Lorde,https://api.spotify.com/v1/artists/163tK9Wjr9P9DmM0AVK7lm
+538,1HBjj22wzbscIZ9sEb5dyf,Jonas Blue,https://api.spotify.com/v1/artists/1HBjj22wzbscIZ9sEb5dyf
+539,2zzpznMuhKlKlqh1ma7Sms,Dakota,https://api.spotify.com/v1/artists/2zzpznMuhKlKlqh1ma7Sms
+540,0NKDgy9j66h3DLnN8qu1bB,Eurythmics,https://api.spotify.com/v1/artists/0NKDgy9j66h3DLnN8qu1bB
+541,5MspMQqdVbdwP6ax3GXqum,Annie Lennox,https://api.spotify.com/v1/artists/5MspMQqdVbdwP6ax3GXqum
+542,7gcCQIlkkfbul5Mt0jBQkg,Dave Stewart,https://api.spotify.com/v1/artists/7gcCQIlkkfbul5Mt0jBQkg
+545,3IYUhFvPQItj6xySrBmZkd,Creedence Clearwater Revival,https://api.spotify.com/v1/artists/3IYUhFvPQItj6xySrBmZkd
+546,20sxb77xiYeusSH8cVdatc,Meek Mill,https://api.spotify.com/v1/artists/20sxb77xiYeusSH8cVdatc
+548,2o5jDhtHVPhrJdv3cEQ99Z,Tiësto,https://api.spotify.com/v1/artists/2o5jDhtHVPhrJdv3cEQ99Z
+549,4KWTAlx2RvbpseOGMEmROg,R.E.M.,https://api.spotify.com/v1/artists/4KWTAlx2RvbpseOGMEmROg
+550,6sFIWsNpZYqfjUpaCgueju,Carly Rae Jepsen,https://api.spotify.com/v1/artists/6sFIWsNpZYqfjUpaCgueju
+554,21E3waRsmPlU7jZsS13rcj,Ne-Yo,https://api.spotify.com/v1/artists/21E3waRsmPlU7jZsS13rcj
+556,3qBKjEOanahMxlRojwCzhI,Zacari,https://api.spotify.com/v1/artists/3qBKjEOanahMxlRojwCzhI
+558,26bcq2nyj5GB7uRr558iQg,Survivor,https://api.spotify.com/v1/artists/26bcq2nyj5GB7uRr558iQg
+560,3Xt3RrJMFv5SZkCfUE8C1J,Kim Petras,https://api.spotify.com/v1/artists/3Xt3RrJMFv5SZkCfUE8C1J
+561,4IJczjB0fJ04gs4uvP0Fli,Gym Class Heroes,https://api.spotify.com/v1/artists/4IJczjB0fJ04gs4uvP0Fli
+562,4bYPcJP5jwMhSivRcqie2n,Adam Levine,https://api.spotify.com/v1/artists/4bYPcJP5jwMhSivRcqie2n
+564,3Y7RZ31TRPVadSFVy1o8os,H.E.R.,https://api.spotify.com/v1/artists/3Y7RZ31TRPVadSFVy1o8os
+565,6t1gpxYbY8OlLA7D2RiikQ,Loud Luxury,https://api.spotify.com/v1/artists/6t1gpxYbY8OlLA7D2RiikQ
+566,5uEeqYFuIChoWKy34jp8xE,Brando,https://api.spotify.com/v1/artists/5uEeqYFuIChoWKy34jp8xE
+574,0c173mlxpT3dSFRgMO8XPh,Big Sean,https://api.spotify.com/v1/artists/0c173mlxpT3dSFRgMO8XPh
+575,4A0TivfinfALCAMJqqjZIk,Funk Wav,https://api.spotify.com/v1/artists/4A0TivfinfALCAMJqqjZIk
+576,0tmwSHipWxN12fsoLcFU3B,Manuel Turizo,https://api.spotify.com/v1/artists/0tmwSHipWxN12fsoLcFU3B
+578,4AK6F7OLvEQ5QYCBNiQWHq,One Direction,https://api.spotify.com/v1/artists/4AK6F7OLvEQ5QYCBNiQWHq
+581,5n9bMYfz9qss2VOW89EVs2,Bomba Estéreo,https://api.spotify.com/v1/artists/5n9bMYfz9qss2VOW89EVs2
+582,4WN5naL3ofxrVBgFpguzKo,Rudimental,https://api.spotify.com/v1/artists/4WN5naL3ofxrVBgFpguzKo
+585,2U3FuHYvL3vhkbDAXm24Ep,Dan Caplen,https://api.spotify.com/v1/artists/2U3FuHYvL3vhkbDAXm24Ep
+586,0zOcE3mg9nS6l3yxt1Y0bK,The Fray,https://api.spotify.com/v1/artists/0zOcE3mg9nS6l3yxt1Y0bK
+588,4AVFqumd2ogHFlRbKIjp1t,Alesso,https://api.spotify.com/v1/artists/4AVFqumd2ogHFlRbKIjp1t
+590,4olE3I5QU0dvSR7LIpqTXc,WATT,https://api.spotify.com/v1/artists/4olE3I5QU0dvSR7LIpqTXc
+594,3WrFJ7ztbogyGnTHbHJFl2,The Beatles,https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2
+597,4V8LLVI7PbaPR0K2TGSxFF,Tyler; The Creator,https://api.spotify.com/v1/artists/4V8LLVI7PbaPR0K2TGSxFF
+598,1U1el3k54VvEUzo3ybLPlM,Kali Uchis,https://api.spotify.com/v1/artists/1U1el3k54VvEUzo3ybLPlM
+599,23zg3TcAtWQy7J6upgbUnj,USHER,https://api.spotify.com/v1/artists/23zg3TcAtWQy7J6upgbUnj
+600,7sfl4Xt5KmfyDs2T3SVSMK,Lil Jon,https://api.spotify.com/v1/artists/7sfl4Xt5KmfyDs2T3SVSMK
+601,3ipn9JLAPI5GUEo4y4jcoi,Ludacris,https://api.spotify.com/v1/artists/3ipn9JLAPI5GUEo4y4jcoi
+602,16oZKvXb6WkQlVAjwo2Wbg,The Lumineers,https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg
+603,4gwpcMTbLWtBUlOijbVpuu,Capital Cities,https://api.spotify.com/v1/artists/4gwpcMTbLWtBUlOijbVpuu
+604,2EMAnMvWE2eb56ToJVfCWs,Bryson Tiller,https://api.spotify.com/v1/artists/2EMAnMvWE2eb56ToJVfCWs
+606,2WzaAvm2bBCf4pEhyuDgCY,Ruth B.,https://api.spotify.com/v1/artists/2WzaAvm2bBCf4pEhyuDgCY
+607,53A0W3U0s8diEn9RhXQhVz,Keane,https://api.spotify.com/v1/artists/53A0W3U0s8diEn9RhXQhVz
+609,28ExwzUQsvgJooOI0X1mr3,Jay Rock,https://api.spotify.com/v1/artists/28ExwzUQsvgJooOI0X1mr3
+610,4UXqAaa6dQYAk18Lv7PEgX,Fall Out Boy,https://api.spotify.com/v1/artists/4UXqAaa6dQYAk18Lv7PEgX
+612,1rw8ZTLnDHd74TWDDukjVi,Conrad Sewell,https://api.spotify.com/v1/artists/1rw8ZTLnDHd74TWDDukjVi
+621,56xTxG4nQMAs1GW9kvn0uA,Wanz,https://api.spotify.com/v1/artists/56xTxG4nQMAs1GW9kvn0uA
+624,0eDvMgVFoNV3TpwtrVCoTj,Pop Smoke,https://api.spotify.com/v1/artists/0eDvMgVFoNV3TpwtrVCoTj
+633,1aSxMhuvixZ8h9dK9jIDwL,Kate Bush,https://api.spotify.com/v1/artists/1aSxMhuvixZ8h9dK9jIDwL
+636,4STHEaNw4mPZ2tzheohgXB,Paul McCartney,https://api.spotify.com/v1/artists/4STHEaNw4mPZ2tzheohgXB
+637,13ubrt8QOOCPljQ2FL1Kca,A$AP Rocky,https://api.spotify.com/v1/artists/13ubrt8QOOCPljQ2FL1Kca
+638,2p1fiYHYiXz9qi0JJyxBzN,Skepta,https://api.spotify.com/v1/artists/2p1fiYHYiXz9qi0JJyxBzN
+640,2kCcBybjl3SAtIcwdWpUe3,Lil Peep,https://api.spotify.com/v1/artists/2kCcBybjl3SAtIcwdWpUe3
+645,4rTv3Ejc7hKMtmoBOK1B4T,Ali Gatie,https://api.spotify.com/v1/artists/4rTv3Ejc7hKMtmoBOK1B4T
+647,2VSHKHBTiXWplO8lxcnUC9,GAYLE,https://api.spotify.com/v1/artists/2VSHKHBTiXWplO8lxcnUC9
+649,0WwSkZ7LtFUFjGjMZBMt6T,Dire Straits,https://api.spotify.com/v1/artists/0WwSkZ7LtFUFjGjMZBMt6T
+650,6XpaIBNiVzIetEPCWDvAFP,Whitney Houston,https://api.spotify.com/v1/artists/6XpaIBNiVzIetEPCWDvAFP
+651,0LcJLqbBmaGUft1e9Mm8HV,ABBA,https://api.spotify.com/v1/artists/0LcJLqbBmaGUft1e9Mm8HV
+652,26dSoYclwsYLMAKD3tpOr4,Britney Spears,https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4
+654,7keGfmQR4X5w0two1xKZ7d,Kungs,https://api.spotify.com/v1/artists/7keGfmQR4X5w0two1xKZ7d
+655,726MxZBpkxnnoKl6aN7mmj,Cookin' On 3 Burners,https://api.spotify.com/v1/artists/726MxZBpkxnnoKl6aN7mmj
+656,027TpXKGwdXP7iwbjUSpV8,The Walters,https://api.spotify.com/v1/artists/027TpXKGwdXP7iwbjUSpV8
+657,3Z02hBLubJxuFJfhacLSDc,Bryan Adams,https://api.spotify.com/v1/artists/3Z02hBLubJxuFJfhacLSDc
+658,3klZnJvYGIbWritVwQD434,Duncan Laurence,https://api.spotify.com/v1/artists/3klZnJvYGIbWritVwQD434
+665,0CjWKoS55T7DOt0HJuwF1H,Bipolar Sunshine,https://api.spotify.com/v1/artists/0CjWKoS55T7DOt0HJuwF1H
+666,66W9LaWS0DPdL7Sz8iYGYe,JP Saxe,https://api.spotify.com/v1/artists/66W9LaWS0DPdL7Sz8iYGYe
+670,5EehXjjMktLuJmbRsM7YfB,Disciples,https://api.spotify.com/v1/artists/5EehXjjMktLuJmbRsM7YfB
+671,4BxCuXFJrSWGi1KHcVqaU4,Kodaline,https://api.spotify.com/v1/artists/4BxCuXFJrSWGi1KHcVqaU4
+673,7f5Zgnp2spUuuzKplmRkt7,Lost Frequencies,https://api.spotify.com/v1/artists/7f5Zgnp2spUuuzKplmRkt7
+680,57vWImR43h4CaDao012Ofp,Steve Lacy,https://api.spotify.com/v1/artists/57vWImR43h4CaDao012Ofp
+683,6HaGTQPmzraVmaVxvz6EUc,Jung Kook,https://api.spotify.com/v1/artists/6HaGTQPmzraVmaVxvz6EUc
+684,3MdXrJWsbVzdn6fe5JYkSQ,Latto,https://api.spotify.com/v1/artists/3MdXrJWsbVzdn6fe5JYkSQ
+685,00FQb4jTyendYWaN8pK0wa,Lana Del Rey,https://api.spotify.com/v1/artists/00FQb4jTyendYWaN8pK0wa
+692,360IAlyVv4PCEVjgyMZrxK,Miguel,https://api.spotify.com/v1/artists/360IAlyVv4PCEVjgyMZrxK
+693,46pWGuE3dSwY3bMMXGBvVS,Rema,https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS
+696,5L1lO4eRHmJ7a0Q6csE5cT,LISA,https://api.spotify.com/v1/artists/5L1lO4eRHmJ7a0Q6csE5cT
+697,7bXgB6jMjp9ATFy66eO08Z,Chris Brown,https://api.spotify.com/v1/artists/7bXgB6jMjp9ATFy66eO08Z
+702,4GvEc3ANtPPjt1ZJllr5Zl,Bazzi,https://api.spotify.com/v1/artists/4GvEc3ANtPPjt1ZJllr5Zl
+703,2ysnwxxNtSgbb9t1m2Ur4j,George Ezra,https://api.spotify.com/v1/artists/2ysnwxxNtSgbb9t1m2Ur4j
+708,4RddZ3iHvSpGV4dvATac9X,Papa Roach,https://api.spotify.com/v1/artists/4RddZ3iHvSpGV4dvATac9X
+709,5me0Irg2ANcsgc93uaYrpb,The Notorious B.I.G.,https://api.spotify.com/v1/artists/5me0Irg2ANcsgc93uaYrpb
+711,2jw70GZXlAI8QzWeY2bgRc,Nelly Furtado,https://api.spotify.com/v1/artists/2jw70GZXlAI8QzWeY2bgRc
+712,5Y5TRrQiqgUO4S36tzjIRZ,Timbaland,https://api.spotify.com/v1/artists/5Y5TRrQiqgUO4S36tzjIRZ
+716,46SHBwWsqBkxI7EeeBEQG7,Kodak Black,https://api.spotify.com/v1/artists/46SHBwWsqBkxI7EeeBEQG7
+723,5xKp3UyavIBUsGy3DQdXeF,A Great Big World,https://api.spotify.com/v1/artists/5xKp3UyavIBUsGy3DQdXeF
+727,6JL8zeS1NmiOftqZTRgdTz,Meghan Trainor,https://api.spotify.com/v1/artists/6JL8zeS1NmiOftqZTRgdTz
+729,22bE4uQ6baNwSHPVcDxLCe,The Rolling Stones,https://api.spotify.com/v1/artists/22bE4uQ6baNwSHPVcDxLCe
+730,7t0rwkOPGlDPEhaOcVtOt9,The Cranberries,https://api.spotify.com/v1/artists/7t0rwkOPGlDPEhaOcVtOt9
+731,2cPqdH7XMvwaBJEVjheH8g,Jay Wheeler,https://api.spotify.com/v1/artists/2cPqdH7XMvwaBJEVjheH8g
+732,2ydZrTy8U3kOMOzx20s3dg,DJ Nelson,https://api.spotify.com/v1/artists/2ydZrTy8U3kOMOzx20s3dg
+733,7iK8PXO48WeuP03g8YR51W,Myke Towers,https://api.spotify.com/v1/artists/7iK8PXO48WeuP03g8YR51W
+734,5nGIFgo0shDenQYSE0Sn7c,Evanescence,https://api.spotify.com/v1/artists/5nGIFgo0shDenQYSE0Sn7c
+737,67MNhiAICFY6Pwc2YxCO0K,Elley Duhé,https://api.spotify.com/v1/artists/67MNhiAICFY6Pwc2YxCO0K
+738,5SbkVQYYzlw1kte75QIabH,Gnarls Barkley,https://api.spotify.com/v1/artists/5SbkVQYYzlw1kte75QIabH
+741,1cNDP5yjU5vjeR8qMf4grg,YNW Melly,https://api.spotify.com/v1/artists/1cNDP5yjU5vjeR8qMf4grg
+742,3rWZHrfrsPBxVy692yAIxF,WILLOW,https://api.spotify.com/v1/artists/3rWZHrfrsPBxVy692yAIxF
+743,2BTZIqw0ntH9MvilQ3ewNY,Cyndi Lauper,https://api.spotify.com/v1/artists/2BTZIqw0ntH9MvilQ3ewNY
+744,4cPHsZM98sKzmV26wlwD2W,Brenda Lee,https://api.spotify.com/v1/artists/4cPHsZM98sKzmV26wlwD2W
+746,3Mcii5XWf6E0lrY3Uky4cA,Ice Cube,https://api.spotify.com/v1/artists/3Mcii5XWf6E0lrY3Uky4cA
+747,7jy3rLJdDQY21OgRLCZ9sD,Foo Fighters,https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD
+749,1h6Cn3P4NGzXbaXidqURXs,Swedish House Mafia,https://api.spotify.com/v1/artists/1h6Cn3P4NGzXbaXidqURXs
+750,2auikkNYqigWStoHWK1Grq,John Martin,https://api.spotify.com/v1/artists/2auikkNYqigWStoHWK1Grq
+752,1QAJqy2dA3ihHBFIHRphZj,Cigarettes After Sex,https://api.spotify.com/v1/artists/1QAJqy2dA3ihHBFIHRphZj
+753,1g1yxsNVPhMUl9GrMjEb2o,Plain White T's,https://api.spotify.com/v1/artists/1g1yxsNVPhMUl9GrMjEb2o
+754,7Ey4PD4MYsKc5I2dolUwbH,Aerosmith,https://api.spotify.com/v1/artists/7Ey4PD4MYsKc5I2dolUwbH
+757,7LnaAXbDVIL75IVPnndf7w,Jamie Foxx,https://api.spotify.com/v1/artists/7LnaAXbDVIL75IVPnndf7w
+759,63MQldklfxkjYDoUE4Tppz,M83,https://api.spotify.com/v1/artists/63MQldklfxkjYDoUE4Tppz
+761,6FBDaR13swtiWwGhX1WQsP,blink-182,https://api.spotify.com/v1/artists/6FBDaR13swtiWwGhX1WQsP
+762,6MF9fzBmfXghAz953czmBC,Taio Cruz,https://api.spotify.com/v1/artists/6MF9fzBmfXghAz953czmBC
+765,3yDIp0kaq9EFKe07X1X2rz,Nile Rodgers,https://api.spotify.com/v1/artists/3yDIp0kaq9EFKe07X1X2rz
+774,6jsjhAEteAlY0vCiLvMLBA,ROZES,https://api.spotify.com/v1/artists/6jsjhAEteAlY0vCiLvMLBA
+775,0jnsk9HBra6NMjO2oANoPY,Flo Rida,https://api.spotify.com/v1/artists/0jnsk9HBra6NMjO2oANoPY
+778,3KedxarmBCyFBevnqQHy3P,Jessie Reyez,https://api.spotify.com/v1/artists/3KedxarmBCyFBevnqQHy3P
+779,2h93pZq0e7k5yf4dywlkpM,Frank Ocean,https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM
+781,5JYo7gm2dkyLLlWHjxS7Dy,Sandro Cavazza,https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+783,4kYGAK2zu9EAomwj3hXkXy,JP Cooper,https://api.spotify.com/v1/artists/4kYGAK2zu9EAomwj3hXkXy
+786,7z5WFjZAIYejWy0NI5lv4T,Dan + Shay,https://api.spotify.com/v1/artists/7z5WFjZAIYejWy0NI5lv4T
+789,1GxkXlMwML1oSg5eLPiAz3,Michael Bublé,https://api.spotify.com/v1/artists/1GxkXlMwML1oSg5eLPiAz3
+790,164Uj4eKjl6zTBKfJLFKKK,JVKE,https://api.spotify.com/v1/artists/164Uj4eKjl6zTBKfJLFKKK
+791,3plJVWt88EqjvtuB4ZDRV3,Ben E. King,https://api.spotify.com/v1/artists/3plJVWt88EqjvtuB4ZDRV3
+792,6QrQ7OrISRYIfS5mtacaw2,Jaymes Young,https://api.spotify.com/v1/artists/6QrQ7OrISRYIfS5mtacaw2
+793,2cGwlqi3k18jFpUyTrsR84,The Verve,https://api.spotify.com/v1/artists/2cGwlqi3k18jFpUyTrsR84
+794,4qIVPF0s71ZYW3qzhu5GkF,Kina,https://api.spotify.com/v1/artists/4qIVPF0s71ZYW3qzhu5GkF
+795,5fSVkkuijRIpxuvSqysYiP,Snøw,https://api.spotify.com/v1/artists/5fSVkkuijRIpxuvSqysYiP
+797,1gl0S9pS0Zw0qfa14rDD3D,Surf Curse,https://api.spotify.com/v1/artists/1gl0S9pS0Zw0qfa14rDD3D
+798,6nS5roXSAGhTGr34W6n7Et,Disclosure,https://api.spotify.com/v1/artists/6nS5roXSAGhTGr34W6n7Et
+803,02A3cEvlLLCbIMVDrK2GHV,Starley,https://api.spotify.com/v1/artists/02A3cEvlLLCbIMVDrK2GHV
+804,33JQK4UoS2aMPYBfdB5Ftt,Ryan Riback,https://api.spotify.com/v1/artists/33JQK4UoS2aMPYBfdB5Ftt
+809,50OApTJurDusIo9dGTqSU4,Lilly Wood and The Prick,https://api.spotify.com/v1/artists/50OApTJurDusIo9dGTqSU4
+811,7giUHu5pv6YTZgSkxxCcgh,Edward Sharpe & The Magnetic Zeros,https://api.spotify.com/v1/artists/7giUHu5pv6YTZgSkxxCcgh
+812,4sTQVOfp9vEMCemLw50sbu,Galantis,https://api.spotify.com/v1/artists/4sTQVOfp9vEMCemLw50sbu
+813,33W1pnW9zScZtYTnAoWnOT,Mr. Probz,https://api.spotify.com/v1/artists/33W1pnW9zScZtYTnAoWnOT
+817,7qG3b048QCHVRO5Pv1T5lw,Enrique Iglesias,https://api.spotify.com/v1/artists/7qG3b048QCHVRO5Pv1T5lw
+818,7iZtZyCzp3LItcw1wtPI3D,Rae Sremmurd,https://api.spotify.com/v1/artists/7iZtZyCzp3LItcw1wtPI3D
+819,13y7CgLHjMVRMDqxdx0Xdo,Gucci Mane,https://api.spotify.com/v1/artists/13y7CgLHjMVRMDqxdx0Xdo
+820,4TH4BHy0LdBi3dpBW4P2UX,R. City,https://api.spotify.com/v1/artists/4TH4BHy0LdBi3dpBW4P2UX
+822,5pUo3fmmHT8bhCyHE52hA6,Liam Payne,https://api.spotify.com/v1/artists/5pUo3fmmHT8bhCyHE52hA6
+824,4TEJudQY2pXxVHPE3gD2EU,BlocBoy JB,https://api.spotify.com/v1/artists/4TEJudQY2pXxVHPE3gD2EU
+826,6gK1Uct5FEdaUWRWpU4Cl2,Petit Biscuit,https://api.spotify.com/v1/artists/6gK1Uct5FEdaUWRWpU4Cl2
+829,48sLioddyaXkuhyHXSkpsB,Parson James,https://api.spotify.com/v1/artists/48sLioddyaXkuhyHXSkpsB
+830,4bL2B6hmLlMWnUEZnorEtG,Felix Jaehn,https://api.spotify.com/v1/artists/4bL2B6hmLlMWnUEZnorEtG
+831,2TL8gYTNgD6nXkyuUdDrMg,Jasmine Thompson,https://api.spotify.com/v1/artists/2TL8gYTNgD6nXkyuUdDrMg
+836,5yG7ZAZafVaAlMTeBybKAL,Iggy Azalea,https://api.spotify.com/v1/artists/5yG7ZAZafVaAlMTeBybKAL
+837,25uiPmTg16RbhZWAqwLBy5,Charli XCX,https://api.spotify.com/v1/artists/25uiPmTg16RbhZWAqwLBy5
+840,4HzKw8XcD0piJmDrrPRCYk,Majid Jordan,https://api.spotify.com/v1/artists/4HzKw8XcD0piJmDrrPRCYk
+842,2s0yxtiHiyGe6CY4mbDYFi,Remy Boyz,https://api.spotify.com/v1/artists/2s0yxtiHiyGe6CY4mbDYFi
+844,0ZrpamOxcZybMHGg1AYtHP,Robin Thicke,https://api.spotify.com/v1/artists/0ZrpamOxcZybMHGg1AYtHP
+845,4OBJLual30L7gRl5UkeRcT,T.I.,https://api.spotify.com/v1/artists/4OBJLual30L7gRl5UkeRcT
+848,4dwdTW1Lfiq0cM8nBAqIIz,Of Monsters and Men,https://api.spotify.com/v1/artists/4dwdTW1Lfiq0cM8nBAqIIz
+849,5nCi3BB41mBaMH9gfr6Su0,fun.,https://api.spotify.com/v1/artists/5nCi3BB41mBaMH9gfr6Su0
+850,6ueGR6SWhUJfvEhqkvMsVs,Janelle Monáe,https://api.spotify.com/v1/artists/6ueGR6SWhUJfvEhqkvMsVs
+854,5M0lbkGluOPXLeFjApw8r8,DRAM,https://api.spotify.com/v1/artists/5M0lbkGluOPXLeFjApw8r8
+855,6icQOAFXDZKsumw3YXyusw,Lil Yachty,https://api.spotify.com/v1/artists/6icQOAFXDZKsumw3YXyusw
+861,17lzZA2AlOHwCwFALHttmp,2 Chainz,https://api.spotify.com/v1/artists/17lzZA2AlOHwCwFALHttmp
+865,6oMuImdp5ZcFhWP0ESe6mG,Migos,https://api.spotify.com/v1/artists/6oMuImdp5ZcFhWP0ESe6mG
+867,4qBgvVog0wzW75IQ48mU7v,KYLE,https://api.spotify.com/v1/artists/4qBgvVog0wzW75IQ48mU7v
+873,7DMveApC7UnC2NPfPvlHSU,Cheat Codes,https://api.spotify.com/v1/artists/7DMveApC7UnC2NPfPvlHSU
+875,0uGk2czvcpWQA383Im6ajf,Maggie Lindemann,https://api.spotify.com/v1/artists/0uGk2czvcpWQA383Im6ajf
+877,0CEK8AzyeD5ZUdUloB6yQV,CADE,https://api.spotify.com/v1/artists/0CEK8AzyeD5ZUdUloB6yQV
+879,2iEvnFsWxR0Syqu2JNopAd,Smash Mouth,https://api.spotify.com/v1/artists/2iEvnFsWxR0Syqu2JNopAd
+883,5exS0bytCYdixgv02DaCm3,William Singe,https://api.spotify.com/v1/artists/5exS0bytCYdixgv02DaCm3
+885,6KZDXtSj0SzGOV705nNeh3,Kid Ink,https://api.spotify.com/v1/artists/6KZDXtSj0SzGOV705nNeh3
+889,5luyt0SUvGkDMY4ILP6Qhl,Descemer Bueno,https://api.spotify.com/v1/artists/5luyt0SUvGkDMY4ILP6Qhl
+890,2cy1zPcrFcXAJTP0APWewL,Gente De Zona,https://api.spotify.com/v1/artists/2cy1zPcrFcXAJTP0APWewL
+891,1Hsdzj7Dlq2I7tHP7501T4,Niall Horan,https://api.spotify.com/v1/artists/1Hsdzj7Dlq2I7tHP7501T4
+892,0SwO7SWeDHJijQ3XNS7xEE,MGMT,https://api.spotify.com/v1/artists/0SwO7SWeDHJijQ3XNS7xEE
+893,3E6xrwgnVfYCrCs0ePERDz,Wisin,https://api.spotify.com/v1/artists/3E6xrwgnVfYCrCs0ePERDz
+895,0eecdvMrqBftK0M1VKhaF4,CNCO,https://api.spotify.com/v1/artists/0eecdvMrqBftK0M1VKhaF4
+896,21451j1KhjAiaYKflxBjr1,Zion & Lennox,https://api.spotify.com/v1/artists/21451j1KhjAiaYKflxBjr1
+898,5EvFsr3kj42KNv97ZEnqij,Shaggy,https://api.spotify.com/v1/artists/5EvFsr3kj42KNv97ZEnqij
+899,67wCYxOq4A1ohAs7jWYaOJ,Rik Rok,https://api.spotify.com/v1/artists/67wCYxOq4A1ohAs7jWYaOJ
+904,40ZNYROS4zLfyyBSs2PGe2,Zach Bryan,https://api.spotify.com/v1/artists/40ZNYROS4zLfyyBSs2PGe2
+911,4obzFoKoKRHIphyHzJ35G3,Becky G,https://api.spotify.com/v1/artists/4obzFoKoKRHIphyHzJ35G3
+912,1GDbiv3spRmZ1XdM1jQbT7,NATTI NATASHA,https://api.spotify.com/v1/artists/1GDbiv3spRmZ1XdM1jQbT7
+916,56oDRnqbIiwx4mymNEv7dS,Lizzo,https://api.spotify.com/v1/artists/56oDRnqbIiwx4mymNEv7dS
+918,1INuLZXjjVbcJRyWvD1iSq,Jack & Jack,https://api.spotify.com/v1/artists/1INuLZXjjVbcJRyWvD1iSq
+921,3ICflSq6ZgYAIrm2CTkfVP,The Animals,https://api.spotify.com/v1/artists/3ICflSq6ZgYAIrm2CTkfVP
+922,3koiLjNrgRTNbOwViDipeA,Marvin Gaye,https://api.spotify.com/v1/artists/3koiLjNrgRTNbOwViDipeA
+923,75jNCko3SnEMI5gwGqrbb8,Tammi Terrell,https://api.spotify.com/v1/artists/75jNCko3SnEMI5gwGqrbb8
+924,36QJpDe2go2KgaRleHCDTp,Led Zeppelin,https://api.spotify.com/v1/artists/36QJpDe2go2KgaRleHCDTp
+925,0uq5PttqEjj3IH1bzwcrXF,Spice Girls,https://api.spotify.com/v1/artists/0uq5PttqEjj3IH1bzwcrXF
+926,5eAWCfyUhZtHHtBdNk56l1,System Of A Down,https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1
+930,1sBkRIssrMs1AbVkOJbc7a,Rick Ross,https://api.spotify.com/v1/artists/1sBkRIssrMs1AbVkOJbc7a
+935,7gZfnEnfiaHzxARJ2LeXrf,6ix9ine,https://api.spotify.com/v1/artists/7gZfnEnfiaHzxARJ2LeXrf
+937,3CbYyyd8wH3RT6t0jwpdzC,Murda Beatz,https://api.spotify.com/v1/artists/3CbYyyd8wH3RT6t0jwpdzC
+941,47MpMsUfWtgyIIBEFOr4FE,Lunay,https://api.spotify.com/v1/artists/47MpMsUfWtgyIIBEFOr4FE
+946,2RDOrhPqAM4jzTRCEb19qX,Sheck Wes,https://api.spotify.com/v1/artists/2RDOrhPqAM4jzTRCEb19qX
+947,1MIVXf74SZHmTIp4V4paH4,Mabel,https://api.spotify.com/v1/artists/1MIVXf74SZHmTIp4V4paH4
+948,0vR2qb8m9WHeZ5ByCbimq2,Reik,https://api.spotify.com/v1/artists/0vR2qb8m9WHeZ5ByCbimq2
+951,3vQ0GE3mI0dAaxIMYe5g7z,Paulo Londra,https://api.spotify.com/v1/artists/3vQ0GE3mI0dAaxIMYe5g7z
+953,6USMTwO0MNDnKte5a5h0xx,Y2K,https://api.spotify.com/v1/artists/6USMTwO0MNDnKte5a5h0xx
+954,41X1TR6hrK8Q2ZCpp2EqCz,bbno$,https://api.spotify.com/v1/artists/41X1TR6hrK8Q2ZCpp2EqCz
+955,0xRXCcSX89eobfrshSVdyu,MEDUZA,https://api.spotify.com/v1/artists/0xRXCcSX89eobfrshSVdyu
+956,2nm38smINjms1LtczR0Cei,Goodboys,https://api.spotify.com/v1/artists/2nm38smINjms1LtczR0Cei
+958,3WGpXCj9YhhfX11TToZcXP,Troye Sivan,https://api.spotify.com/v1/artists/3WGpXCj9YhhfX11TToZcXP
+959,0awl5piYwO0CDTHEkCjUhn,Nico & Vinz,https://api.spotify.com/v1/artists/0awl5piYwO0CDTHEkCjUhn
+960,3Gm5F95VdRxW3mqCn8RPBJ,Aminé,https://api.spotify.com/v1/artists/3Gm5F95VdRxW3mqCn8RPBJ
+966,6eYFryfcEu3QSq59D62wZQ,Brendon Urie,https://api.spotify.com/v1/artists/6eYFryfcEu3QSq59D62wZQ
+968,2kucQ9jQwuD8jWdtR9Ef38,Sam Hunt,https://api.spotify.com/v1/artists/2kucQ9jQwuD8jWdtR9Ef38
+970,7jefIIksOi1EazgRTfW2Pk,Electric Light Orchestra,https://api.spotify.com/v1/artists/7jefIIksOi1EazgRTfW2Pk
+971,0Cp8WN4V8Tu4QJQwCN5Md4,BENEE,https://api.spotify.com/v1/artists/0Cp8WN4V8Tu4QJQwCN5Md4
+972,6sHCvZe1PHrOAuYlwTLNH4,Gus Dapperton,https://api.spotify.com/v1/artists/6sHCvZe1PHrOAuYlwTLNH4
+976,2RTUTCvo6onsAnheUk3aL9,3 Doors Down,https://api.spotify.com/v1/artists/2RTUTCvo6onsAnheUk3aL9
+986,4EPJlUEBy49EX1wuFOvtjK,Becky Hill,https://api.spotify.com/v1/artists/4EPJlUEBy49EX1wuFOvtjK
+994,5lKZWd6HiSCLfnDGrq9RAm,Leona Lewis,https://api.spotify.com/v1/artists/5lKZWd6HiSCLfnDGrq9RAm
+996,1buzCmyYZE4kcdLRudsb8V,Mikky Ekko,https://api.spotify.com/v1/artists/1buzCmyYZE4kcdLRudsb8V
+998,3DiDSECUqqY1AuBP8qtaIa,Alicia Keys,https://api.spotify.com/v1/artists/3DiDSECUqqY1AuBP8qtaIa
+1001,7KMqksf0UMdyA0UCf4R3ux,James Blunt,https://api.spotify.com/v1/artists/7KMqksf0UMdyA0UCf4R3ux
+1002,3GBPw9NK25X1Wt2OUvOwY3,Jack Johnson,https://api.spotify.com/v1/artists/3GBPw9NK25X1Wt2OUvOwY3
+1003,6USv9qhCn6zfxlBQIYJ9qs,Dominic Fike,https://api.spotify.com/v1/artists/6USv9qhCn6zfxlBQIYJ9qs
+1005,1KP6TWI40m7p3QBTU6u2xo,BØRNS,https://api.spotify.com/v1/artists/1KP6TWI40m7p3QBTU6u2xo
+1008,07QEuhtrNmmZ0zEcqE9SF6,Owl City,https://api.spotify.com/v1/artists/07QEuhtrNmmZ0zEcqE9SF6
+1012,5vQfv3s2Z2SRdPZKr82ABw,Dzeko,https://api.spotify.com/v1/artists/5vQfv3s2Z2SRdPZKr82ABw
+1013,0bdJZl7TDeiymDYzMJnVh2,Preme,https://api.spotify.com/v1/artists/0bdJZl7TDeiymDYzMJnVh2
+1015,6U1dBXJhC8gXFjamvFTmHg,Zac Efron,https://api.spotify.com/v1/artists/6U1dBXJhC8gXFjamvFTmHg
+1016,6sCbFbEjbYepqswM1vWjjs,Zendaya,https://api.spotify.com/v1/artists/6sCbFbEjbYepqswM1vWjjs
+1022,1lmU3giNF3CSbkVSQmLpHQ,Surf Mesa,https://api.spotify.com/v1/artists/1lmU3giNF3CSbkVSQmLpHQ
+1023,4ArPQ1Opcksbbf3CPwEjWE,Emilee,https://api.spotify.com/v1/artists/4ArPQ1Opcksbbf3CPwEjWE
+1024,7oPftvlwr6VrsViSDV7fJY,Green Day,https://api.spotify.com/v1/artists/7oPftvlwr6VrsViSDV7fJY
+1025,51Blml2LZPmy7TTiAg47vQ,U2,https://api.spotify.com/v1/artists/51Blml2LZPmy7TTiAg47vQ
+1028,1Y8cdNmUJH7yBTd9yOvr5i,Destiny's Child,https://api.spotify.com/v1/artists/1Y8cdNmUJH7yBTd9yOvr5i
+1030,44NX2ffIYHr6D4n7RaZF7A,Van Morrison,https://api.spotify.com/v1/artists/44NX2ffIYHr6D4n7RaZF7A
+1032,4D75GcNG95ebPtNvoNVXhz,AFROJACK,https://api.spotify.com/v1/artists/4D75GcNG95ebPtNvoNVXhz
+1034,1ruutHJcECI7cos2n5TqpO,Nayer,https://api.spotify.com/v1/artists/1ruutHJcECI7cos2n5TqpO
+1037,7i9j813KFoSBMldGqlh2Z1,Riton,https://api.spotify.com/v1/artists/7i9j813KFoSBMldGqlh2Z1
+1038,1gALaWbNDnwS2ECV09sn2A,Nightcrawlers,https://api.spotify.com/v1/artists/1gALaWbNDnwS2ECV09sn2A
+1039,4L2dV3zY7RmkeiNO035Fi0,Mufasa & Hypeman,https://api.spotify.com/v1/artists/4L2dV3zY7RmkeiNO035Fi0
+1040,3Edve4VIATi0OZngclQlkN,Dopamine,https://api.spotify.com/v1/artists/3Edve4VIATi0OZngclQlkN
+1044,3EOEK57CV77D4ovYVcmiyt,Dennis Lloyd,https://api.spotify.com/v1/artists/3EOEK57CV77D4ovYVcmiyt
+1048,3aQeKQSyrW4qWr35idm0cy,T-Pain,https://api.spotify.com/v1/artists/3aQeKQSyrW4qWr35idm0cy
+1053,6deZN1bslXzeGvOLaLMOIF,Nickelback,https://api.spotify.com/v1/artists/6deZN1bslXzeGvOLaLMOIF
+1054,67hb7towEyKvt5Z8Bx306c,Empire Of The Sun,https://api.spotify.com/v1/artists/67hb7towEyKvt5Z8Bx306c
+1055,5ndkK3dpZLKtBklKjxNQwT,B.o.B,https://api.spotify.com/v1/artists/5ndkK3dpZLKtBklKjxNQwT
+1056,6Rx1JKzBrSzoKQtmbVmBnM,Hayley Williams,https://api.spotify.com/v1/artists/6Rx1JKzBrSzoKQtmbVmBnM
+1057,7oPgCQqMMXEXrNau5vxYZP,Tracy Chapman,https://api.spotify.com/v1/artists/7oPgCQqMMXEXrNau5vxYZP
+1059,0MlOPi3zIDMVrfA9R04Fe3,American Authors,https://api.spotify.com/v1/artists/0MlOPi3zIDMVrfA9R04Fe3
+1060,6hN9F0iuULZYWXppob22Aj,Simple Minds,https://api.spotify.com/v1/artists/6hN9F0iuULZYWXppob22Aj
+1061,3Ayl7mCk0nScecqOzvNp6s,Jimmy Eat World,https://api.spotify.com/v1/artists/3Ayl7mCk0nScecqOzvNp6s
+1063,0p4nmQO2msCgU4IF37Wi3j,Avril Lavigne,https://api.spotify.com/v1/artists/0p4nmQO2msCgU4IF37Wi3j
+1064,29kkCKKGXheHuoO829FxWK,Boston,https://api.spotify.com/v1/artists/29kkCKKGXheHuoO829FxWK
+1066,2mpeljBig2IXLXRAFO9AAs,Dido,https://api.spotify.com/v1/artists/2mpeljBig2IXLXRAFO9AAs
+1070,0gxyHStUsqpMadRV0Di1Qt,Rick Astley,https://api.spotify.com/v1/artists/0gxyHStUsqpMadRV0Di1Qt
+1071,07XSN3sPlIlB2L2XNcTwJw,KISS,https://api.spotify.com/v1/artists/07XSN3sPlIlB2L2XNcTwJw
+1072,19ra5tSw0tWufvUp8GotLo,George Michael,https://api.spotify.com/v1/artists/19ra5tSw0tWufvUp8GotLo
+1078,41MozSoPIsD1dJM0CLPjZF,BLACKPINK,https://api.spotify.com/v1/artists/41MozSoPIsD1dJM0CLPjZF
+1079,7dWYWUbO68rXJOcyA7SpJk,Fort Minor,https://api.spotify.com/v1/artists/7dWYWUbO68rXJOcyA7SpJk
+1080,5bf6yYgHODBW5EreBZshpX,Styles Of Beyond,https://api.spotify.com/v1/artists/5bf6yYgHODBW5EreBZshpX
+1083,0SD4eZCN4Kr0wQk56hCdh2,Bonnie Tyler,https://api.spotify.com/v1/artists/0SD4eZCN4Kr0wQk56hCdh2
+1084,1gRNBaI4yn6wCCTvRhGWh8,Don McLean,https://api.spotify.com/v1/artists/1gRNBaI4yn6wCCTvRhGWh8
+1085,1moxjboGR7GNWYIMWsRjgG,Florence + The Machine,https://api.spotify.com/v1/artists/1moxjboGR7GNWYIMWsRjgG
+1090,5LfGQac0EIXyAN8aUwmNAQ,The Offspring,https://api.spotify.com/v1/artists/5LfGQac0EIXyAN8aUwmNAQ
+1091,4NHQUGzhtTLFvgF5SZesLK,Tove Lo,https://api.spotify.com/v1/artists/4NHQUGzhtTLFvgF5SZesLK
+1096,1bs7HoMkSyQwcobCpE9KpN,The Mamas & The Papas,https://api.spotify.com/v1/artists/1bs7HoMkSyQwcobCpE9KpN
+1097,7MhMgCo0Bl0Kukl93PZbYS,Blur,https://api.spotify.com/v1/artists/7MhMgCo0Bl0Kukl93PZbYS
+1099,2iE18Oxc8YSumAU232n4rW,The Jackson 5,https://api.spotify.com/v1/artists/2iE18Oxc8YSumAU232n4rW
+1100,1ThoqLcyIYvZn7iWbj8fsj,Bill Withers,https://api.spotify.com/v1/artists/1ThoqLcyIYvZn7iWbj8fsj
+1101,1LZEQNv7sE11VDY3SdxQeN,Bee Gees,https://api.spotify.com/v1/artists/1LZEQNv7sE11VDY3SdxQeN
+1112,4oUHIQIBe0LHzYfvXNW4QM,Morgan Wallen,https://api.spotify.com/v1/artists/4oUHIQIBe0LHzYfvXNW4QM
+1119,33NVpKoXjItPwUJTMZIOiY,David Kushner,https://api.spotify.com/v1/artists/33NVpKoXjItPwUJTMZIOiY
+1120,2LRoIwlKmHjgvigdNGBHNo,Feid,https://api.spotify.com/v1/artists/2LRoIwlKmHjgvigdNGBHNo
+1121,3qsKSpcV3ncke3hw52JSMB,Young Miko,https://api.spotify.com/v1/artists/3qsKSpcV3ncke3hw52JSMB
+1122,35WVTyRnKAoaGExqgktVyb,Hotel Ugly,https://api.spotify.com/v1/artists/35WVTyRnKAoaGExqgktVyb
+1123,69bG9tC62d8oTFC9aTTosn,New West,https://api.spotify.com/v1/artists/69bG9tC62d8oTFC9aTTosn
+1124,1oSPZhvZMIrWW5I41kPkkY,Jimin,https://api.spotify.com/v1/artists/1oSPZhvZMIrWW5I41kPkkY
+1128,0Y6dVaC9DZtPNH4591M42W,TV Girl,https://api.spotify.com/v1/artists/0Y6dVaC9DZtPNH4591M42W
+1129,0z4gvV4rjIZ9wHck67ucSV,Akon,https://api.spotify.com/v1/artists/0z4gvV4rjIZ9wHck67ucSV
+1130,7I3bkknknQkIiatWiupQgD,Beach Weather,https://api.spotify.com/v1/artists/7I3bkknknQkIiatWiupQgD
+1131,4GJ6xDCF5jaUqD6avOuQT6,FIFTY FIFTY,https://api.spotify.com/v1/artists/4GJ6xDCF5jaUqD6avOuQT6
+1132,6XkjpgcEsYab502Vr1bBeW,Grupo Frontera,https://api.spotify.com/v1/artists/6XkjpgcEsYab502Vr1bBeW
+1134,78rUTD7y6Cy67W1RVzYs7t,PinkPantheress,https://api.spotify.com/v1/artists/78rUTD7y6Cy67W1RVzYs7t
+1135,3LZZPxNDGDFVSIPqf4JuEf,Ice Spice,https://api.spotify.com/v1/artists/3LZZPxNDGDFVSIPqf4JuEf
+1137,0eHQ9o50hj6ZDNBt6Ys1sD,Yandel,https://api.spotify.com/v1/artists/0eHQ9o50hj6ZDNBt6Ys1sD
+1139,3jOstUTkEu2JkjvRdBA5Gu,Weezer,https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu
+1140,1NNRWkhwmcXRimFYSBpB1y,Yng Lvcas,https://api.spotify.com/v1/artists/1NNRWkhwmcXRimFYSBpB1y
+1141,12GqGscKJx3aE4t07u7eVZ,Peso Pluma,https://api.spotify.com/v1/artists/12GqGscKJx3aE4t07u7eVZ
+1142,5XKFrudbV4IiuE5WuTPRmT,Stephen Sanchez,https://api.spotify.com/v1/artists/5XKFrudbV4IiuE5WuTPRmT
+1143,7o2ZQYM7nTsaVdkXY38UAA,Em Beihold,https://api.spotify.com/v1/artists/7o2ZQYM7nTsaVdkXY38UAA
+1146,5y8tKLUfMvliMe8IKamR32,d4vd,https://api.spotify.com/v1/artists/5y8tKLUfMvliMe8IKamR32
+1150,7u6LfVyYpEzMpHLL7jTyvU,Dwele,https://api.spotify.com/v1/artists/7u6LfVyYpEzMpHLL7jTyvU
+1152,46xBNx0j6cwY6sD9LgMTm1,Rosa Linn,https://api.spotify.com/v1/artists/46xBNx0j6cwY6sD9LgMTm1
+1154,0XeEobZplHxzM9QzFQWLiR,Eslabon Armado,https://api.spotify.com/v1/artists/0XeEobZplHxzM9QzFQWLiR
+1160,3RwQ26hR2tJtA8F9p2n7jG,The Temptations,https://api.spotify.com/v1/artists/3RwQ26hR2tJtA8F9p2n7jG
+1163,0elWFr7TW8piilVRYJUe4P,Natanael Cano,https://api.spotify.com/v1/artists/0elWFr7TW8piilVRYJUe4P
+1168,0xliTEbFfy5HQHvsTknTkX,Alphaville,https://api.spotify.com/v1/artists/0xliTEbFfy5HQHvsTknTkX

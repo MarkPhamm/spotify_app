@@ -2,8 +2,6 @@ import all_time_songs
 import artist_songs
 import spotipy
 
-
-
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 from datetime import datetime
@@ -43,6 +41,16 @@ artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,al
 
 # print(artist_songs_in_album_df.head())
 # print(artist_songs_df)
+# print(artist_album_df)
+
+# all_time_df.to_csv(r"spotify_app\static\data\all_time_df.csv")
+# all_time_artist_df.to_csv(r"spotify_app\static\data\all_time_artist_df.csv")
+# all_time_album_df.to_csv(r"spotify_app\static\data\all_time_album_df.csv")
+# all_time_song_df.to_csv(r"spotify_app\static\data\all_time_song_df.csv")
+
+# artist_album_df.to_csv(r"spotify_app\static\data\artist_album_df.csv")
+# artist_songs_df.to_csv(r"spotify_app\static\data\artist_songs_df.csv")
+# artist_songs_in_album_df.to_csv(r"spotify_app\static\data\artist_songs_in_album_df.csv")
 
 my_app = Flask(__name__)
 @my_app.route('/')
