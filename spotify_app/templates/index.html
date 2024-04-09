@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <script>
+        var most_popular_song  = '{{ most_popular_song|safe }}';
+    </script>
+    <title>FlaskBlog</title>
+</head>
+
+<body>
+   <h1>Welcome to our Spotify Dashboard</h1>
+   <p id="user_input"><script>document.getElementById("user_input").innerText = "You input: {{ user_artist|safe }}" </script></p>
+   <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
+   <button onclick="showMessage()">Click Me!</button>
+   <script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
+</body>
+</html>

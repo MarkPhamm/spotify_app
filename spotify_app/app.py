@@ -6,10 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 from datetime import datetime
 
-
 from flask import Flask
 from flask import render_template
-
 
 import os
 from dotenv import load_dotenv
@@ -54,8 +52,12 @@ artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,al
 
 my_app = Flask(__name__)
 @my_app.route('/')
-def index():
-    return render_template('index.html', most_popular_song = artist_songs_df.sort_values('popularity', ascending = False)['name'].head(1))
+
+def return_user_artist():
+    return render_template('index.html', user_artist = user_artist)
+
+def return_most_popular_song():
+    return render_template('index.html', most_popular_song = artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0])
 
 # For use in starting from the terminal 
 if __name__ == '__main__':  
