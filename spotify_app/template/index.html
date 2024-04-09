@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <script>
+        var historical_fact = '{{ fact }}';
+    </script>
+    <title>FlaskBlog</title>
+</head>
+
+<body>
+   <h1>Welcome to FlaskBlog</h1>
+   <p>Just some text <i>and still more</i> test</p>
+   <p id="most_popular_songs">
+   <script>document.getElementById("most_popular_songs").innerText = "{{ most_popular_song }}" </script></p>
+
+   <button onclick="showMessage()">Click Me!</button>
+   <script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
+</body>
+</html>

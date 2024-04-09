@@ -1,9 +1,18 @@
 import all_time_songs
 import artist_songs
 import spotipy
+
+
+
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 from datetime import datetime
+
+
+from flask import Flask
+from flask import render_template
+
+
 import os
 from dotenv import load_dotenv
 # see also python-decouple
@@ -32,4 +41,14 @@ uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
 artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
 artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)
 
-print(artist_songs_in_album_df.head())
+# print(artist_songs_in_album_df.head())
+# print(artist_songs_df)
+
+my_app = Flask(__name__)
+@my_app.route('/')
+def index():
+    return render_template('index.html', most_popular_song = artist_songs_df.sort_values('popularity', ascending = False)['name'].head(1))
+
+# For use in starting from the terminal 
+if __name__ == '__main__':  
+   my_app.run()
