@@ -1,6 +1,7 @@
 import all_time_songs
 import artist_songs
 import spotipy
+import open_ai
 
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
@@ -8,6 +9,7 @@ from datetime import datetime
 
 from flask import Flask
 from flask import render_template
+from flask import request
 
 import os
 from dotenv import load_dotenv
@@ -24,40 +26,35 @@ client_secret =CLIENT_SECRET)
 
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
-# prompt user input
-user_artist = 'The weeknd'
+
+my_app = Flask(__name__)
+
 ACCESS_TOKEN = artist_songs.get_access_token(CLIENT_ID=CLIENT_ID, CLIENT_SECRET=CLIENT_SECRET)
-artist_uri = artist_songs.query_artist_uri(user_artist)
-TOP_TRACK_URL = f'https://api.spotify.com/v1/artists/{artist_uri}/top-tracks?market=US'
-album_selection = ['Starboy']
+
+
 
 all_time_df, all_time_artist_df, all_time_album_df, all_time_song_df = all_time_songs.return_all_time_songs(sp)
 
-uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
-artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
-artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)
+def return_most_popular_songs(artist_songs_df):
+    return artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0]
 
-# print(artist_songs_in_album_df.head())
-# print(artist_songs_df)
-# print(artist_album_df)
 
-# all_time_df.to_csv(r"spotify_app\static\data\all_time_df.csv")
-# all_time_artist_df.to_csv(r"spotify_app\static\data\all_time_artist_df.csv")
-# all_time_album_df.to_csv(r"spotify_app\static\data\all_time_album_df.csv")
-# all_time_song_df.to_csv(r"spotify_app\static\data\all_time_song_df.csv")
-
-# artist_album_df.to_csv(r"spotify_app\static\data\artist_album_df.csv")
-# artist_songs_df.to_csv(r"spotify_app\static\data\artist_songs_df.csv")
-# artist_songs_in_album_df.to_csv(r"spotify_app\static\data\artist_songs_in_album_df.csv")
-
-my_app = Flask(__name__)
-@my_app.route('/')
-
-def return_user_artist():
-    return render_template('index.html', user_artist = user_artist)
-
-def return_most_popular_song():
-    return render_template('index.html', most_popular_song = artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0])
+@my_app.route('/', methods=['GET','POST']) # NEW
+def render_index():
+    user_artist = "the weeknd"
+    if request.method == 'POST':
+        user_artist = str(request.form['artist_name'])
+    artist_uri = artist_songs.query_artist_uri(user_artist)
+    TOP_TRACK_URL = f'https://api.spotify.com/v1/artists/{artist_uri}/top-tracks?market=US'
+    album_selection = ['Starboy']
+    uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
+    artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
+    artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)
+    return render_template('index.html', 
+                           most_popular_song = return_most_popular_songs(artist_songs_df=artist_songs_df),
+                           user_artist = user_artist,
+                           chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist))
+                           )
 
 # For use in starting from the terminal 
 if __name__ == '__main__':  
