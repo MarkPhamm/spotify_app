@@ -1,5 +1,7 @@
 import all_time_songs
 import artist_songs
+import top_artist
+
 import spotipy
 import open_ai
 
@@ -53,7 +55,8 @@ def render_index():
     return render_template('index.html', 
                            most_popular_song = return_most_popular_songs(artist_songs_df=artist_songs_df),
                            user_artist = user_artist,
-                           chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist))
+                           chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist)),
+                           top_artist_html = top_artist.plot_artist_counts(df=all_time_df, top_n = 10)
                            )
 
 # For use in starting from the terminal 
