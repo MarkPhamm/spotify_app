@@ -1,0 +1,6 @@
+spotipy
+openai
+pandas
+Flask
+python-dotenv
+python-decouple
