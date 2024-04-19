@@ -72,6 +72,7 @@ def render_index():
                            chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist)),
                            top_artist_html = chart.plot_artist_counts(df=all_time_df, top_n = 10),
                            top_songs_html = chart.plot_top_songs_by_popularity(all_time_df, 5),
+                           album_table = artist_album_df[['AlbumName']].to_html(),
                            customer_tables = sql_analysis()
                            )
 

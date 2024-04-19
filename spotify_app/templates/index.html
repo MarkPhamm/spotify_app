@@ -28,6 +28,7 @@
    <script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
 
    <h2>About your album</h2>
+   {{ album_table|safe }}
    <h2>Songs recommedation</h2>
    <h3>Customer Data from SQL</h3>
    {{ customer_tables|safe }}
