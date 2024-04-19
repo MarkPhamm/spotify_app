@@ -1,9 +1,10 @@
 import all_time_songs
 import artist_songs
-import top_artist
+import chart as chart
 
 import spotipy
 import open_ai
+import sqlite3
 
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
@@ -41,6 +42,19 @@ def return_most_popular_songs(artist_songs_df):
     return artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0]
 
 
+def sql_analysis():
+    sql_get_all_customers_and_stays = """
+    SELECT * FROM customers
+    """
+
+    con = sqlite3.connect("customervisit.db") # establish connection to database (point to the right database)
+    cur = con.cursor() # open 'access' to the database
+    cur.execute(sql_get_all_customers_and_stays)
+    result = cur.fetchall()
+    con.close()
+    table = pd.DataFrame(result, columns=['customer_id', 'name', 'age'])  
+    return table.to_html(index=False, classes='table table-striped')
+
 @my_app.route('/', methods=['GET','POST']) # NEW
 def render_index():
     user_artist = "the weeknd"
@@ -56,7 +70,9 @@ def render_index():
                            most_popular_song = return_most_popular_songs(artist_songs_df=artist_songs_df),
                            user_artist = user_artist,
                            chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist)),
-                           top_artist_html = top_artist.plot_artist_counts(df=all_time_df, top_n = 10)
+                           top_artist_html = chart.plot_artist_counts(df=all_time_df, top_n = 10),
+                           top_songs_html = chart.plot_top_songs_by_popularity(all_time_df, 5),
+                           customer_tables = sql_analysis()
                            )
 
 # For use in starting from the terminal 

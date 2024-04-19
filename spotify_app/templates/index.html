@@ -11,20 +11,25 @@
 
 <body>
    <h1>Welcome to our Spotify Dashboard</h1>
+   <h2>All Time Tables</h2>
+    {{ top_artist_html|safe }}
+    <br>
+    {{ top_songs_html|safe }}
 
+   <h2>About Your Artist</h2>
    <form method="post">
     <input type="string" name="artist_name" required><br><br>
     <button type="submit">Submit</button>
    </form>
-
    <p id="user_input"><script>document.getElementById("user_input").innerText = "You input: {{ user_artist|safe }}" </script></p>
    <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
-   <h1>Your Plotly Charts</h1>
-    {{ top_artist_html|safe }}
-    <br>
-    {{ top_artist_html|safe }}
    <button onclick="showMessage()">Click Me!</button>
    <script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
+
+   <h2>About your album</h2>
+   <h2>Songs recommedation</h2>
+   <h3>Customer Data from SQL</h3>
+   {{ customer_tables|safe }}
 </body>
 </html>
