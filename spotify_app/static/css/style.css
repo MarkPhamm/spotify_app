@@ -1,6 +1,82 @@
-h1 {
-    border: 2px #eee solid;
-    color: brown;
-    text-align: center;
-    padding: 10px;
+body {
+    font-family: "Notable", sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
 }
+
+h1 {
+    color: #1db954;
+}
+
+h2 {
+  color: white;
+  font-family: "Notable", sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  color: white;
+  font-family: "Notable", sans-serif;
+  font-size: 20px;
+}
+
+label{
+  color: white
+}
+
+p {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+}
+
+/* # for id selector */
+#copyright {
+  color: #1db954;
+}
+
+/* . for class selector */
+.topnav {
+    overflow: hidden;
+    background-color: #1db954;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #137736;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #1db954;
+    color: black;
+  }
+  
+  .topnav a.active:hover {
+    background-color: #137736;
+    color: white;
+  }
+
+/* for submit button style*/
+button {
+  background-color: #1db954;
+  color: black;
+  border-style: none;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  user-select: none; 
+}
+  button:hover{
+    background-color: #137736;
+    color: white;
+    border-style: none;
+  }
