@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/ss.ico') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Song Scout x Spotify</title>
+</head>
+
+<body>
+   <div class="topnav">
+      <a class="active" href="{{ url_for('stats') }}">All Time Stats</a>
+      <a href="artist.html">Artist</a>
+      <a href="album.html">Album</a>
+      <a href="songs.html">Songs</a>
+      <a href="sql.html">SQL</a>
+  </div>
+   <br>
+   <div>
+      <img align="right" src="{{ url_for('static', filename='images/songscoutxspotify.png') }}" style="width: 296px; height: 110px;" alt="Song Scout">
+      <h1>Song Scout</h1>
+   </div>
+   <p>Searching for something new? Song Scout is made for you.</p>
+   <p>Discover personalized song suggestions and uncover details about your favorite artists..</p>
+   <h2>All Time Tables</h2>
+   {{ top_artist_html|safe }}
+   <br>
+   {{ top_songs_html|safe }}
+   <br>
+   {% block content %} {% endblock %}
+   <br><br>
+   <a id="copyright">BIS Development Class&#169;</a>
+
+</body>
+</html>

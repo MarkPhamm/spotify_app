@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<h2>About Your Artist</h2>
+<form method="post">
+ <input type="string" name="artist_name" required><br><br>
+ <button type="submit">Submit</button>
+</form>
+<p id="user_input"><script>document.getElementById("user_input").innerText = "You input: {{ user_artist|safe }}" </script></p>
+<p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
+<p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
+<button onclick="showMessage()">Click Me!</button>
+<script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
+{% endblock %}

@@ -33,14 +33,10 @@ sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 my_app = Flask(__name__)
 
 ACCESS_TOKEN = artist_songs.get_access_token(CLIENT_ID=CLIENT_ID, CLIENT_SECRET=CLIENT_SECRET)
-
-
-
 all_time_df, all_time_artist_df, all_time_album_df, all_time_song_df = all_time_songs.return_all_time_songs(sp)
 
 def return_most_popular_songs(artist_songs_df):
     return artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0]
-
 
 def sql_analysis():
     sql_get_all_customers_and_stays = """
@@ -55,8 +51,28 @@ def sql_analysis():
     table = pd.DataFrame(result, columns=['customer_id', 'name', 'age'])  
     return table.to_html(index=False, classes='table table-striped')
 
+def render_base():
+    return render_template('base.html', 
+                           top_artist_html = chart.plot_artist_counts(df=all_time_df, top_n = 10),
+                           top_songs_html = chart.plot_top_songs_by_popularity(all_time_df, 5))
+
+def render_artist(user_artist, artist_songs_df):    
+    return render_template('artist.html', 
+                           most_popular_song = return_most_popular_songs(artist_songs_df=artist_songs_df),
+                           user_artist = user_artist,
+                           chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist)),
+                           )
+def render_album(artist_album_df):
+    return render_template('album.html', 
+                           album_table = artist_album_df[['AlbumName']].to_html())
+
+def render_customer():
+    return render_template('customer.html', 
+                           customer_tables = sql_analysis())
+
+
 @my_app.route('/', methods=['GET','POST']) # NEW
-def render_index():
+def receive_artist():
     user_artist = "the weeknd"
     if request.method == 'POST':
         user_artist = str(request.form['artist_name'])
@@ -66,15 +82,11 @@ def render_index():
     uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
     artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
     artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)
-    return render_template('index.html', 
-                           most_popular_song = return_most_popular_songs(artist_songs_df=artist_songs_df),
-                           user_artist = user_artist,
-                           chat_gpt_response = open_ai.return_chatgpt_introduction(str(user_artist)),
-                           top_artist_html = chart.plot_artist_counts(df=all_time_df, top_n = 10),
-                           top_songs_html = chart.plot_top_songs_by_popularity(all_time_df, 5),
-                           album_table = artist_album_df[['AlbumName']].to_html(),
-                           customer_tables = sql_analysis()
-                           )
+    render_base()
+    render_artist(user_artist, artist_songs_df)
+    render_album(artist_album_df)
+    render_customer()
+    
 
 # For use in starting from the terminal 
 if __name__ == '__main__':  
