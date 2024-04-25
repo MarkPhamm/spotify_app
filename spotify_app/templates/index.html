@@ -26,12 +26,15 @@
    <p>Searching for something new? Song Scout is made for you.</p>
    <p>Discover personalized song suggestions and uncover details about your favorite artist.</p>
    <br>
+   <hr>
+   <hr>
 
    <h2>All Time Tables</h2>
     {{ top_artist_html|safe }}
     <br>
     {{ top_songs_html|safe }}
-
+    <br>
+    <hr>
    <h2>About Your Artist</h2>
    <form method="post">
     <input type="string" name="artist_name" required><br><br>
@@ -42,18 +45,25 @@
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
    <!-- <button onclick="showMessage()">Click Me!</button>
    <script src="{{ url_for('static', filename= 'js/script.js') }}"></script> -->
-
+   <br>
+   <hr>
    <h2>About your album</h2>
    <div id="album_table">
        {{ album_table|safe }}
    </div>
+   <br>
+   <hr>
    <h2>Songs recommendation</h2>
+   <br>
+   <hr>
    <h3>Customer Data from SQL</h3>
    <div id="customer_tables">
        {{ customer_tables|safe }}
    </div>
 
    <br><br>
+   <hr>
+   <hr>
    <a id="copyright">BIS Development Class&#169;</a>
 
 </body>
