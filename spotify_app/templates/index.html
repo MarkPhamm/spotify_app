@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/ss.ico') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Song Scout x Spotify</title>
     <script>
         var most_popular_song  = '{{ most_popular_song|safe }}';
     </script>
@@ -42,6 +47,6 @@
    <div id="customer_tables">
        {{ customer_tables|safe }}
    </div>
-   
+
 </body>
 </html>
