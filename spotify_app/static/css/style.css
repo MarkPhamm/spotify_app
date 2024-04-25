@@ -75,8 +75,13 @@ button {
   font-family: "Nunito", sans-serif;
   user-select: none; 
 }
-  button:hover{
-    background-color: #137736;
-    color: white;
-    border-style: none;
-  }
+button:hover{
+  background-color: #137736;
+  color: white;
+  border-style: none;
+}
+
+/* Change font color for tables */
+ #album_table, #customer_tables {
+    color: white; 
+}
