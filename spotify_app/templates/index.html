@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='images/ss.ico') }}">
+    <link rel="shortcut icon" href="ss.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -15,7 +15,18 @@
 </head>
 
 <body>
-   <h1>Welcome to our Spotify Dashboard</h1>
+    <div class="topnav">
+        <a class="active" Home</a>
+      </div>
+     <br>
+     <div>
+        <img align="right" src="songscoutxspotify.png" style="width: 296px; height: 110px;" alt="Song Scout">
+        <h1>Song Scout</h1>
+     </div>
+   <p>Searching for something new? Song Scout is made for you.</p>
+   <p>Discover personalized song suggestions and uncover details about your favorite artist.</p>
+   <br>
+
    <h2>All Time Tables</h2>
     {{ top_artist_html|safe }}
     <br>
@@ -29,14 +40,8 @@
    <p id="user_input"><script>document.getElementById("user_input").innerText = "Your input: {{ user_artist|safe }}" </script></p>
    <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
-   <button onclick="showMessage()">Click Me!</button>
-   <script src="{{ url_for('static', filename= 'js/script.js') }}"></script>
-
-   <!-- <h2>About your album</h2>
-   {{ album_table|safe }}
-   <h2>Songs recommedation</h2>
-   <h3>Customer Data from SQL</h3>
-   {{ customer_tables|safe }} -->
+   <!-- <button onclick="showMessage()">Click Me!</button>
+   <script src="{{ url_for('static', filename= 'js/script.js') }}"></script> -->
 
    <h2>About your album</h2>
    <div id="album_table">
@@ -47,6 +52,9 @@
    <div id="customer_tables">
        {{ customer_tables|safe }}
    </div>
+
+   <br><br>
+   <a id="copyright">BIS Development Class&#169;</a>
 
 </body>
 </html>
