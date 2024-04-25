@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
-    <link rel="shortcut icon" href="ss.ico">
+    <link rel="shortcut icon" href="images/ssicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -11,16 +11,17 @@
     <script>
         var most_popular_song  = '{{ most_popular_song|safe }}';
     </script>
-    <title>Spotify Analysis</title>
+    <!-- <title>Spotify Analysis</title> -->
 </head>
 
 <body>
     <div class="topnav">
         <a class="active" Home</a>
+        <a href="base.html">All Time Tables</a>
       </div>
      <br>
      <div>
-        <img align="right" src="songscoutxspotify.png" style="width: 296px; height: 110px;" alt="Song Scout">
+        <img align="right" src="ssxspotify.png" style="width: 296px; height: 110px;" alt="Song Scout">
         <h1>Song Scout</h1>
      </div>
    <p>Searching for something new? Song Scout is made for you.</p>
