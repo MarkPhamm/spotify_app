@@ -30,11 +30,23 @@
    <hr>
 
    <h2>All Time Tables</h2>
-    {{ top_artist_html|safe }}
-    <br>
-    {{ top_songs_html|safe }}
-    <br>
-    <hr>
+<div class="table-container top-artists-table">
+    <h3>Top Artists</h3>
+    <table>
+        {{ top_artist_html|safe }}
+    </table>
+</div>
+<br>
+<br>
+<div class="table-container top-songs-table">
+    <h3>Top Songs</h3>
+    <table>
+        {{ top_songs_html|safe }}
+    </table>
+</div>
+
+<hr>
+
    <h2>About Your Artist</h2>
    <form method="post">
     <input type="string" name="artist_name" required><br><br>
@@ -43,19 +55,22 @@
    <p id="user_input"><script>document.getElementById("user_input").innerText = "Your input: {{ user_artist|safe }}" </script></p>
    <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
-   <!-- <button onclick="showMessage()">Click Me!</button>
-   <script src="{{ url_for('static', filename= 'js/script.js') }}"></script> -->
+   <!-- <script src=" {{ url_for('static', filename= 'js/script.js') }}"></script> -->
+  
    <br>
    <hr>
+
    <h2>About your album</h2>
    <div id="album_table">
        {{ album_table|safe }}
    </div>
    <br>
    <hr>
+
    <h2>Songs recommendation</h2>
    <br>
    <hr>
+
    <h3>Customer Data from SQL</h3>
    <div id="customer_tables">
        {{ customer_tables|safe }}

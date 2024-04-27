@@ -33,7 +33,8 @@ def plot_top_songs_by_popularity(df, top_n):
         x=top_popular['popularity'],
         y=top_popular['song_name'],
         orientation='h',
-        marker=dict(color='skyblue'),
+        marker=dict(color= 'green'),
+        textfont=dict(family='Nunito'),
     ))
 
     fig.update_layout(
@@ -41,6 +42,7 @@ def plot_top_songs_by_popularity(df, top_n):
         xaxis_title='Popularity',
         yaxis_title='Song Name',
         yaxis=dict(autorange="reversed"),  # Invert y-axis to have the highest popularity at the top
+        plot_bgcolor='black'
     )
 
     plot_html = fig.to_html(full_html=False)
