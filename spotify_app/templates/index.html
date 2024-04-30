@@ -53,8 +53,11 @@
     <button type="submit">Submit</button>
    </form>
    <p id="user_input"><script>document.getElementById("user_input").innerText = "Your input: {{ user_artist|safe }}" </script></p>
-   <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}" </script></p>
+   <p id="p_artist_appearance"><script>document.getElementById("p_artist_appearance").innerText = "{{ apperance_response|safe }}" </script></p>
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
+   <div id="customer_tables">
+    {{ songs_in_all_time_table|safe }}
+</div>
    <!-- <script src=" {{ url_for('static', filename= 'js/script.js') }}"></script> -->
   
    <br>
@@ -64,30 +67,18 @@
    <div id="album_table">
        {{ album_table|safe }}
    </div>
-   <p>Input your desire album</p>
-   <input type="string" name="album_selection" required><br><br>
-   <button type="submit">Submit</button>
    <br>
+   <p>"The most recent album is: {{ newest_album|safe }}, you probably heard about it"</p>
+   <p>"The oldest album is: {{ oldest_album|safe }}, you probably never heard about it"</p>
    <hr>
-   <h2>Songs recommendation</h2>
-   <br>
-   <body>
-    <form action="/button-click" method="post">
-        <button type="submit" name="button_name" value="Acoustic">Acoustic</button>
-        <button type="submit" name="button_name" value="Danceability">Danceability</button>
-        <button type="submit" name="button_name" value="Energy">Energy</button>
-        <button type="submit" name="button_name" value="Speechiness">Speechiness</button>
-        <button type="submit" name="button_name" value="Instrumentalness">Instrumentalness</button>
-        <button type="submit" name="button_name" value="Loudness">Loudness</button>
-        <button type="submit" name="button_name" value="Tempo">Tempo</button>
-        <button type="submit" name="button_name" value="Liveness">Liveness</button>
-        <button type="submit" name="button_name" value="Valence">Valence</button>
-    </form>
-```</body>
-   <p>user_choices</p>
    <hr>
-
-   <h3>Customer Data from SQL</h3>
+   <h2>About your artist's songs</h2>
+   <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}, you probably heard about it" </script></p>
+   <p id="p_least_popular_song"><script>document.getElementById("p_least_popular_song").innerText = "The most least song is: {{ least_popular_song|safe }}, you should try it out" </script></p>
+   
+   
+   
+   <h2>Customer Data from SQL</h2>
    <div id="customer_tables">
        {{ customer_tables|safe }}
    </div>
