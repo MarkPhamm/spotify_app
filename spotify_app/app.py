@@ -55,14 +55,29 @@ def sql_analysis():
     table = pd.DataFrame(result, columns=['customer_id', 'name', 'age'])  
     return table.to_html(index=False, classes='table table-striped')
 
+
+@my_app.route('/button-click', methods=['POST'])
+def button_click():
+    button_name = request.form['button_name']
+    # Do something with the button_name, such as processing it or returning a response
+    return button_name
+
+# @my_app.route('/', methods=['GET','POST']) # NEW
+# def receive_album():
+#     if request.method == "POST":
+#         album_selection = str(request.form['album_name'])
+#     return album_selection
+
 @my_app.route('/', methods=['GET','POST']) # NEW
 def render_index():
     user_artist = "the weeknd"
+    album_selection = ['Starboy']
     if request.method == 'POST':
         user_artist = str(request.form['artist_name'])
+        # button_name = request.form['button_name']
+        # # album_selection = str(request.form['album_name'])
     artist_uri = artist_songs.query_artist_uri(user_artist)
     TOP_TRACK_URL = f'https://api.spotify.com/v1/artists/{artist_uri}/top-tracks?market=US'
-    album_selection = ['Starboy']
     uri, name, artist_album_df = artist_songs.return_artist_album(sp, user_artist)
     artist_songs_df = artist_songs.return_artist_songs(access_token=ACCESS_TOKEN, top_track_url=TOP_TRACK_URL)
     artist_songs_in_album_df = artist_songs.return_artist_songs_in_album(uri,name,album_names_df=artist_album_df,album_selection=album_selection)

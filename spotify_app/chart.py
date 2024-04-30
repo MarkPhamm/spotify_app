@@ -12,7 +12,16 @@ def plot_artist_counts(df, top_n=5):
     # Creating a bar plot using Plotly Express
     fig = px.bar(top_artists, x='artist_name', y='count', title='Top 10 Artists by Number of Songs all time',
                  labels={'artist_name': 'Artist', 'count': 'Count'})
-    return fig.to_html(fig, full_html=False)
+
+    # Changing background color to black
+    fig.update_layout({
+        'plot_bgcolor': 'black'
+    })
+
+    # Changing column color to green
+    fig.update_traces(marker_color='green')
+
+    return fig.to_html(full_html=False)
 
 def plot_top_songs_by_popularity(df, top_n):
     """

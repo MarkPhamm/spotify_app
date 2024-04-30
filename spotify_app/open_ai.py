@@ -26,5 +26,3 @@ def return_chatgpt_introduction(artist):
         model=model
     )
     return(chat_completion.choices[0].message.content)
-
-print(return_chatgpt_introduction("Eminenm"))
