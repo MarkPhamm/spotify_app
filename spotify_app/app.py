@@ -36,6 +36,8 @@ ACCESS_TOKEN = artist_songs.get_access_token(CLIENT_ID=CLIENT_ID, CLIENT_SECRET=
 
 all_time_df, all_time_artist_df, all_time_album_df, all_time_song_df = all_time_songs.return_all_time_songs(sp)
 
+all_time_df = all_time_df.reset_index(drop=True)
+
 def return_most_popular_songs(artist_songs_df):
     return artist_songs_df.sort_values('popularity', ascending = False)['name'].reset_index(drop=True)[0]
 
@@ -49,13 +51,13 @@ def return_oldest_album(all_time_df):
     return all_time_df.sort_values('album_old', ascending = True)['album_name'].reset_index(drop=True)[0]
 
 def return_artist_appearance_in_all_time(user_artist, all_time_df):
-    number_of_appearance = len(all_time_df.loc[all_time_df['artist_name'] == 'The Weeknd'])
+    number_of_appearance = len(all_time_df.loc[all_time_df['artist_name'] == user_artist])
     if number_of_appearance == 0:
         return("Unique Choice, your artist have never appear in the all-time list")
     return(F"Wow, your artist has {number_of_appearance} songs in the all time list")
 
 def return_artist_songs_appearance_in_all_time(user_artist, all_time_df):
-    return all_time_df.loc[all_time_df['artist_name'] == 'The Weeknd'][['song_name']].to_html()
+    return all_time_df.loc[all_time_df['artist_name'] == user_artist][['song_name']].to_html()
 
 
 

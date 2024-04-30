@@ -44,6 +44,8 @@
         {{ top_songs_html|safe }}
     </table>
 </div>
+<p>"The most recent album in the all time list is: {{ newest_album|safe }}, you probably heard about it"</p>
+<p>"The oldest album in the all time list is: {{ oldest_album|safe }}, you probably never heard about it"</p>
 
 <hr>
 
@@ -53,8 +55,10 @@
     <button type="submit">Submit</button>
    </form>
    <p id="user_input"><script>document.getElementById("user_input").innerText = "Your input: {{ user_artist|safe }}" </script></p>
-   <p id="p_artist_appearance"><script>document.getElementById("p_artist_appearance").innerText = "{{ apperance_response|safe }}" </script></p>
    <p id="p_artist_introduction"><script>document.getElementById("p_artist_introduction").innerText = "Artist Intro: {{ chat_gpt_response|safe }}" </script></p>
+
+
+   <p id="p_artist_appearance"><script>document.getElementById("p_artist_appearance").innerText = "{{ apperance_response|safe }}" </script></p>
    <div id="customer_tables">
     {{ songs_in_all_time_table|safe }}
 </div>
@@ -68,8 +72,6 @@
        {{ album_table|safe }}
    </div>
    <br>
-   <p>"The most recent album is: {{ newest_album|safe }}, you probably heard about it"</p>
-   <p>"The oldest album is: {{ oldest_album|safe }}, you probably never heard about it"</p>
    <hr>
    <hr>
    <h2>About your artist's songs</h2>
