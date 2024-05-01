@@ -120,6 +120,7 @@ def return_all_time_songs(sp):
 
 def main():
     all_time_df, all_time_artist_df,all_time_album_df,all_time_song_df = return_all_time_songs(sp)
+    all_time_df.reset_index(drop=True, inplace=True)
 
 if __name__ == "__main__":
     main()
