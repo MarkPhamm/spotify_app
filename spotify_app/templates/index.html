@@ -31,7 +31,7 @@
 
    <h2>All Time Tables</h2>
 <div class="table-container top-artists-table">
-    <h3>Top Artists</h3>
+    <h3>Top Artists of All Time</h3>
     <table>
         {{ top_artist_html|safe }}
     </table>
@@ -39,17 +39,19 @@
 <br>
 <br>
 <div class="table-container top-songs-table">
-    <h3>Top Songs</h3>
+    <h3>Top Songs of All Time</h3>
     <table>
         {{ top_songs_html|safe }}
     </table>
 </div>
-<p>"The most recent album in the all time list is: {{ newest_album|safe }}, you probably heard about it"</p>
-<p>"The oldest album in the all time list is: {{ oldest_album|safe }}, you probably never heard about it"</p>
+<p>The most recent album on the all time list is: {{ newest_album|safe }}, you have probably heard about it.</p>
+<p>The oldest album on the all time list is: {{ oldest_album|safe }}, you might not have heard of it before.</p>
 
+<hr>
 <hr>
 
    <h2>About Your Artist</h2>
+   <p>Looking for something new from your favorite artist? Enter the artist's name and get recommendations based on their all-time top songs. If they don't have any songs on the all-time list, you can learn more about them and then enter a new artist.</p>
    <form method="post">
     <input type="string" name="artist_name" required><br><br>
     <button type="submit">Submit</button>
@@ -66,19 +68,24 @@
   
    <br>
    <hr>
+   <hr>
 
    <h2>About your album</h2>
    <div id="album_table">
        {{ album_table|safe }}
    </div>
+   
    <br>
    <hr>
    <hr>
-   <h2>About your artist's songs</h2>
-   <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}, you probably heard about it" </script></p>
-   <p id="p_least_popular_song"><script>document.getElementById("p_least_popular_song").innerText = "The most least song is: {{ least_popular_song|safe }}, you should try it out" </script></p>
-   
-   
+
+   <h2>Song Recommendations Based on your Artist</h2>
+   <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}. You should listen to this to keep up with other fans." </script></p>
+   <p id="p_least_popular_song"><script>document.getElementById("p_least_popular_song").innerText = "The least popular song is: {{ least_popular_song|safe }}. You should listen to discover a new favorite." </script></p>
+  
+   <br>
+   <hr>
+   <hr>
    
    <h2>Customer Data from SQL</h2>
    <div id="customer_tables">
