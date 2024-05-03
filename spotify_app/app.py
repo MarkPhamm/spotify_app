@@ -12,6 +12,7 @@ from datetime import datetime
 
 import giuli
 import kaylee
+import jackson
 
 from flask import Flask
 from flask import render_template
@@ -81,6 +82,9 @@ def render_index():
                            top_artist_html = chart.plot_artist_counts(df=all_time_df, top_n = 10),
                            top_songs_html = chart.plot_top_songs_by_popularity(all_time_df, 5),
 
+                           album_in_all_time_table = jackson.return_albums_in_all_time_list(artist_album_df, all_time_album_df),
+                           number_album_in_all_time = jackson.return_number_of_album_in_all_time_list(artist_album_df, all_time_album_df),
+                           
                            album_table = artist_album_df[['AlbumName']].to_html(),
                            customer_tables = sql_analysis()
                            )
