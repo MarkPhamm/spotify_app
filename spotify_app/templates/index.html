@@ -44,8 +44,6 @@
         {{ top_songs_html|safe }}
     </table>
 </div>
-<p>The most recent album on the all time list is: {{ newest_album|safe }}. We highly recommend listening to this album so you don't miss any new beats.</p>
-<p>The oldest album on the all time list is: {{ oldest_album|safe }}. If you enjoy the classics, you should listen to this album.</p>
 
 <br>
 <hr>
@@ -70,12 +68,9 @@
    <hr>
    <hr>
 
-   <h2>About your album</h2>
-   <div id="album_table">
-       {{ album_table|safe }}
-   </div>
-   <p>Here's the list of album that appears in the all time list</p>
-   <p>There's a total of {{number_album_in_all_time|safe }} albums from this artist in the all time list</p>
+  <h2>Recommendations based on artist's songs in all-time list</h2>
+  <p>There's a total of {{number_album_in_all_time|safe }} albums from this artist in the all time list.</p>
+  <p>Copy the URL to listen to the suggested album on Spotify!</p>
    <div id="album_in_all_time">
     {{ album_in_all_time_table|safe }}
    </div>
@@ -84,7 +79,16 @@
    <hr>
    <hr>
 
-   <h2>Song Recommendations Based on your Artist</h2>
+   <h2>listen to new albums from your artist</h2>
+   <div id="album_table">
+       {{ album_table|safe }}
+   </div>
+
+   <br>
+   <hr>
+   <hr>
+
+   <h2>Song Recommendations Based song popularity</h2>
    <p id="p_most_popular_song"><script>document.getElementById("p_most_popular_song").innerText = "The most popular song is: {{ most_popular_song|safe }}. You should listen to this to keep up with other fans." </script></p>
    <p id="p_least_popular_song"><script>document.getElementById("p_least_popular_song").innerText = "The least popular song is: {{ least_popular_song|safe }}. You should listen to discover a new favorite." </script></p>
   

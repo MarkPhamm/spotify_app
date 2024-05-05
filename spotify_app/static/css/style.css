@@ -74,8 +74,8 @@ button:hover{
   border-style: none;
 }
 
-/* All Time Tables Styling */
- #album_table, #customer_tables {
+/* Tables Styling */
+ #album_table, #customer_tables, #album_in_all_time {
     color: white; 
     font-family: "Nunito", sans-serif;
 }
