@@ -5,6 +5,10 @@ body {
     background-color: #1D1D1D;
 }
 
+.container {
+  text-align: center; /* Center-align the container */
+}
+
 h1 {
   color: #1db954;
 }

@@ -49,6 +49,8 @@
 <hr>
 <hr>
 
+<div class="container">
+
    <h2>About Your Artist</h2>
    <p>Looking for something new from your favorite artist? Enter the artist's name and get recommendations based on their all-time top songs. If they don't have any songs on the all-time list, you can learn more about them and then enter a new artist.</p>
    <form method="post">
@@ -80,6 +82,8 @@
    <hr>
 
    <h2>listen to new albums from your artist</h2>
+   <br>
+
    <div id="album_table">
        {{ album_table|safe }}
    </div>
@@ -99,6 +103,7 @@
    <h2>Customer Data from SQL</h2>
    <div id="customer_tables">
        {{ customer_tables|safe }}
+   </div>
    </div>
 
    <br><br>
