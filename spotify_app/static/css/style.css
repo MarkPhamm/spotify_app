@@ -5,10 +5,17 @@ body {
     background-color: #1D1D1D;
 }
 
+/* # for margins and alignment */
 .container {
   text-align: center; /* Center-align the container */
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* # for fonts */
 h1 {
   color: #1db954;
 }
@@ -85,8 +92,8 @@ button:hover{
 }
 .table-container {
   margin-bottom: 20px;
-  width: 100%; /* Set the width to 100% */
-  height: 575px; /* Set the height to your desired value */
+  width: 100%; 
+  height: 575px; 
   overflow: auto;
 }
 
